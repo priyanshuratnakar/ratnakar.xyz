@@ -45,7 +45,7 @@ export default function Home() {
                 <strong>Hello world 👋 </strong>
               </Text>
               <Text>
-              I'm <a 
+              Im <a 
                   href={"about"}
                   style={{ color: "#005B99" }}>Priyanshu Ratnakar</a> and welcome to my little corner on the Internet.
               </Text>
@@ -59,7 +59,7 @@ export default function Home() {
               </Text>
 
               <Text> 
-              I'm in the arena trying stuff. Some will work, some won't. But always learning. IYKYK
+              Im in the arena trying stuff. Some will work, some wont. But always learning. IYKYK
               </Text>
               <Text>
               <a href="https://twitter.com/priynshuratnakr" style={{ color: "#005B99" }} target={"_blank"} rel={"noreferrer"}>Twitter</a> is my digital playground,<br></br> 
@@ -259,7 +259,7 @@ export default function Home() {
               <a href="index">Home </a> /
               <a href="about"> About </a>  /
               <a href="halloffame"> Hall of Fame </a> /
-              <a href="https://www.youtube.com/watch?v=igd_BRgBdKQ&list=PLbstBO6w7ALZMAdnTbFAeCbQlJVqj8KHz&pp=iAQB" target={"_blank"} > Talks </a>
+              <a href="https://www.youtube.com/watch?v=igd_BRgBdKQ&list=PLbstBO6w7ALZMAdnTbFAeCbQlJVqj8KHz&pp=iAQB" target={"_blank"} rel="noreferrer"> Talks </a>
             </Text>
 
 

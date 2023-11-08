@@ -47,7 +47,7 @@ export default function Home() {
               opacity={"95%"}
             >
               <Text fontFamily={"Outfit"} color={"black"} size={"50px"}>
-                <strong>Hello there 👋 <br></br>I'm Priyanshu Ratnakar </strong>
+                <strong>Hello there 👋 <br></br>Im Priyanshu Ratnakar </strong>
               </Text>
               <Text>
                 currently, i&apos;m working @{" "}s

@@ -45,17 +45,18 @@ export default function Home() {
               <Divider borderColor={"black"} />
               <Text>
               So, who am I, you ask? every day, I ask myself this question, finding solace in the introspection it brings. 
-              Self-reflection, to me, a reminder of where I've been and where I'm headed. 
+              Self-reflection, to me, a reminder of where Ive been and where Im headed. 
               The question have become a bit of a ritual, a way to keep my compass pointed in the right direction.
               </Text>
               <Text>
-                I was born in Muzaffarpur, fourth most populous city in Bihar and world-famous for its <a href="https://en.wikipedia.org/wiki/Lychee" style={{ color: "#005B99" }} target={"_blank"}>lychees.</a>
+                I was born in Muzaffarpur, fourth most populous city in Bihar and world-famous for its <a href="https://en.wikipedia.org/wiki/Lychee" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer" >lychees.</a>
               </Text>
               <Flex flexDir={"column"} gap={"30px"}>
             <Image
               src={"about/born.jpg"}
               borderRadius={"7px"}
               objectFit={"cover"}
+              alt="childhood image"
             />
             </Flex>
               <Text>
@@ -69,21 +70,21 @@ export default function Home() {
               </Text>
               <Text>
               My story with technology started in an unexpected way when my father borrowed a PC to start his recording studio, and it changed everything. 
-              Before that, we used those old cassette recorders, the <a href="http://ahujapaworld.com/index.php?route=product/product&product_id=137" style={{ color: "#005B99" }} target={"_blank"}>40-40s.</a> 
+              Before that, we used those old cassette recorders, the <a href="http://ahujapaworld.com/index.php?route=product/product&product_id=137" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer" >40-40s.</a> 
               </Text>
               <Text>
-              Initially, I wasn't allowed to touch it, but one day I got a chance and watched the movie <a href="https://youtu.be/XxxAYut8iPg?si=2ZdcNwx23_zqy0tP" style={{ color: "#005B99" }} target={"_blank"}>My friend Ganesha. </a>
+              Initially, I wasnt allowed to touch it, but one day I got a chance and watched the movie <a href="https://youtu.be/XxxAYut8iPg?si=2ZdcNwx23_zqy0tP" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer" >My friend Ganesha. </a>
               This was my very first interaction, and probably the last one for that whole year.
               </Text>
               <Text>
               That instructor went home and asked my father if he wants me to learn computers, he will teach me for free. This is how it all started. 
-              I was 10 that time, during summer holidays in one month, I knew not just the basics of computer, but <a href="https://en.wikipedia.org/wiki/MS-DOS#:~:text=MS%2DDOS%20(%2Fˌ%C9%9B,computers%20mostly%20developed%20by%20Microsoft." style={{ color: "#005B99" }} target={"_blank"}>MS-DOS,</a> <a href="https://en.wikipedia.org/wiki/Logo_(programming_language)" style={{ color: "#005B99" }} target={"_blank"}>LOGO </a>and basics of <a href="https://en.wikipedia.org/wiki/C_(programming_language)" style={{ color: "#005B99" }} target={"_blank"}>C. </a>
+              I was 10 that time, during summer holidays in one month, I knew not just the basics of computer, but <a href="https://en.wikipedia.org/wiki/MS-DOS#:~:text=MS%2DDOS%20(%2Fˌ%C9%9B,computers%20mostly%20developed%20by%20Microsoft." style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer" >MS-DOS,</a> <a href="https://en.wikipedia.org/wiki/Logo_(programming_language)" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer" >LOGO </a>and basics of <a href="https://en.wikipedia.org/wiki/C_(programming_language)" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer" >C. </a>
               </Text>
               <Text>
               It ignited my passion for the programming and command line.
               </Text>
               <Text>
-              In the next few years, we obtained an internet connection through an <a href="https://amzn.to/3u5MIty" style={{ color: "#005B99" }} target={"_blank"}>Airtel 3G modem.</a> The internet was amazing, even though I had limited data.
+              In the next few years, we obtained an internet connection through an <a href="https://amzn.to/3u5MIty" style={{ color: "#005B99" }} rel="noreferrer" target={"_blank"}>Airtel 3G modem.</a> The internet was amazing, even though I had limited data.
               I spent most of my time diving deep into the vast expanse of the web, surfing from one place to another. 
               This experience exposed me to the true power of computers.
               </Text>
@@ -111,6 +112,7 @@ export default function Home() {
               src={"about/awards.jpg"}
               borderRadius={"7px"}
               objectFit={"cover"}
+              alt="image of awards"
             />
             </Flex>
               <Text>
@@ -150,7 +152,7 @@ export default function Home() {
               </Text>
               <Text>
               Im currently navigating the unpredictable journey of entrepreneurship, continuously experimenting and learning.
-              I'm in the arena trying stuff. Some will work, some won't. But always learning. IYKYK
+              Im in the arena trying stuff. Some will work, some wont. But always learning. IYKYK
               </Text>
 
             </Flex>

@@ -42,7 +42,7 @@ export default function Home() {
               opacity={"100%"}>
                 Bookshelf 
               </Text> 
-              <Text opacity={"75%"}>inspired by <a href="https://patrickcollison.com/bookshelf" target={"_blank"} style={{ color: "#005B99", fontWeight: "500" }}>patrick collison </a>
+              <Text opacity={"75%"}>inspired by <a href="https://patrickcollison.com/bookshelf" target={"_blank"} rel="noreferrer" style={{ color: "#005B99", fontWeight: "500" }}>patrick collison </a>
               this is my digital library - a public record of books ive read.  
               green indicates current reads, ⭐️ marks for exceptional ones. <a href="mailto:hello@priyanshuratnakar.com" style={{ color: "#005B99", fontWeight: "500" }}>send recommendations</a></Text>
             </Flex>
@@ -161,7 +161,7 @@ export default function Home() {
                   rel={"noreferrer"}
                   style={{color: "#005B99",  fontWeight: "500" }}
                 >
-                  student' treasure
+                  students treasure
                 </a>{" "}
                 — purushottamananda
               </Text>

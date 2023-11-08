@@ -42,8 +42,8 @@ export default function Home() {
               opacity={"95%"}>
                 Hall of Fame
               </Text> 
-              <Text opacity={"75%"}>I don't set out to win awards. I don't think any entrepreneurs does, but when you receive an award, 
-              it's an affirmation: it means that people appreciate what you do. 
+              <Text opacity={"75%"}>I dont set out to win awards. I dont think any entrepreneurs does, but when you receive an award, 
+              its an affirmation: it means that people appreciate what you do. 
               Every award I have received is a confirmation of something I have done, and that motivates me to push a little harder. 🥂</Text>
             </Flex>
             <Divider borderColor={"black"} />
@@ -81,6 +81,7 @@ export default function Home() {
               src={"fame.jpg"}
               borderRadius={"7px"}
               objectFit={"cover"}
+              alt="priyanshu ratnakar receiving awards"
             />
     
             <Text

@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>priyanshuratnakar.com</title>
         <link rel="shortcut icon" href="fav.png" />
         <meta property="og:title" content="Priyanshu Ratnakar" />
-        <meta name="og:description" content="researcher, weaving threads as a modern day polymath" key="desc"/>
+        <meta name="description" content="researcher, weaving threads as a modern day polymath" key="desc"/>
         <meta property="og:image" content="fav.png"/>
         <meta property="og:url" content="https://www.priyanshuratnakar.com"/>
         <meta property="og:type" content="website"/>

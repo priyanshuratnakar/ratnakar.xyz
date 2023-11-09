@@ -109,7 +109,7 @@ export default function Home() {
               </Text>
               <Flex flexDir={"column"} gap={"30px"}>
             <Image
-              src={"about/awards.jpg"}
+              src={"about/awards.JPG"}
               borderRadius={"7px"}
               objectFit={"cover"}
               alt="image of awards"

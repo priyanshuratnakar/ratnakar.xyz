@@ -179,9 +179,10 @@ export default function Home() {
                 - Ebook, sold 150+ copies online.
               </Text>
               <Text>
+                🛠️{" "}
                 <a
                 className={"project"}
-                href={"https://amzn.to/49nGSnB"}
+                href={"#"}
                 target={"_blank"}
                 rel={"noreferrer"}
                 style={{ fontWeight: "500" }}

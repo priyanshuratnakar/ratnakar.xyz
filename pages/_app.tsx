@@ -1,7 +1,11 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import { Analytics } from '@vercel/analytics/react';
+
+
 import { ChakraProvider } from "@chakra-ui/react";
+
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -33,6 +37,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           key="twt-img"
         />
       </Head>
+      <Analytics />
       <ChakraProvider>
         <Component {...pageProps} />
       </ChakraProvider>

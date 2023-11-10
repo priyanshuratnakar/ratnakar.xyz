@@ -107,9 +107,9 @@ export default function Home() {
               <Text>
               It was an amazing journey running Protocol X. We had a good three years filled with money, fame, and lots of learning.
               </Text>
-              <Flex flexDir={"column"} gap={"30px"}>
+            <Flex flexDir={"column"} gap={"30px"}>
             <Image
-              src={"about/awards.JPG"}
+              src={"fame.jpg"}
               borderRadius={"7px"}
               objectFit={"cover"}
               alt="image of awards"

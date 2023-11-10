@@ -32,32 +32,35 @@ export default function Home() {
               fontSize={["14px", "14px", "16px"]}
               lineHeight={"28px"}
               fontWeight={"normal"}
-              opacity={"95%"}
+              opacity={"100%"}
             >
                <Text
               color={"black"}
               fontSize={["21px", "21px", "24px"]}
               lineHeight={"5px"}
               fontWeight={"500"}
-              opacity={"95%"}>
-                Hall of Fame
+              opacity={"100%"}>
+                Wall of Fame
               </Text> 
               <Text opacity={"75%"}>I dont set out to win awards. I dont think any entrepreneurs does, but when you receive an award, 
               its an affirmation: it means that people appreciate what you do. 
               Every award I have received is a confirmation of something I have done, and that motivates me to push a little harder. 🥂</Text>
             </Flex>
-            <Divider borderColor={"black"} />
           </Flex>
-          <Flex gap={"30px"} flexDir={"column"}>
-            <Flex
-              flexDir={"column"}
-              gap={"5px"}
-              fontSize={["14px", "14px", "16px"]}
-              lineHeight={"28px"}
-              fontWeight={"normal"}
-              opacity={"95%"}
-            >
-              <Text
+
+            <Divider borderColor={"black"} />
+            
+            <Flex flexDir={"column"} gap={"30px"}>
+            <Image
+              src={"about/awards.JPG"}
+              borderRadius={"7px"}
+              objectFit={"cover"}
+              alt="image of awards"
+            />
+            </Flex>
+          
+            <Flex gap={"30px"} flexDir={"column"}>
+            <Text
               fontSize={["21px", "21px", "24px"]}
               lineHeight={"28px"}
               fontWeight={"500"}
@@ -65,7 +68,16 @@ export default function Home() {
             >
             Awards
             </Text>
-            <ul>
+            <Flex
+              flexDir={"column"}
+              gap={"20px"}
+              fontSize={["14px", "14px", "16px"]}
+              lineHeight={"28px"}
+              fontWeight={"normal"}
+              opacity={"95%"}
+            >
+            <Text> 
+              <ul>
               <li>Pradhan Mantri Bal Shakti Purushkar (nominated) - 2021</li>
               <li>CogX Voice of GenZ (semifinalist) - 2020</li>
               <li>Male Entrepreneur of The year - 2019</li>
@@ -76,14 +88,13 @@ export default function Home() {
               <li>Think Mobile with Google - 2018</li>
               <li>Doodle for Google (semifinalist)- 2016</li>
             </ul>
+            </Text>
+            </Flex>
+           
+            </Flex>
 
-            <Image
-              src={"fame.jpg"}
-              borderRadius={"7px"}
-              objectFit={"cover"}
-              alt="priyanshu ratnakar receiving awards"
-            />
-    
+            <Flex gap={"30px"} flexDir={"column"}>
+
             <Text
               fontSize={["21px", "21px", "24px"]}
               lineHeight={"28px"}
@@ -92,7 +103,16 @@ export default function Home() {
             >
             Press and Media
             </Text>
-            <ul>
+            <Flex
+              flexDir={"column"}
+              gap={"20px"}
+              fontSize={["14px", "14px", "16px"]}
+              lineHeight={"28px"}
+              fontWeight={"normal"}
+              opacity={"95%"}
+            >
+            <Text>
+              <ul>
               <li>
                 <a 
                 href="https://yourstory.com/hindi/top-five-youngest-entrepreneurs-india-2020-tilak-mehta-advait-thakur-priyanshu-ratnakar-akhilendra-sahu-rohit-kashyap" 
@@ -220,7 +240,7 @@ export default function Home() {
                 </a>
               </li>
             </ul>
-
+              </Text>
             </Flex>
           </Flex>
         </Flex>

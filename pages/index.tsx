@@ -45,12 +45,12 @@ export default function Home() {
                 <strong>Hello world 👋 </strong>
               </Text>
               <Text>
-              Im <a 
+              I&apos;m <a 
                   href={"about"}
                   style={{ color: "#005B99" }}>Priyanshu Ratnakar</a> and welcome to my little corner on the Internet.
               </Text>
               <Text>
-                Some titles i associate with - founder, author, researcher, speaker and batman.
+                Some titles I associate with - founder, author, researcher, speaker and batman.
               </Text>
 
               <Text>
@@ -59,11 +59,11 @@ export default function Home() {
               </Text>
 
               <Text> 
-              Im in the arena trying stuff. Some will work, some wont. But always learning. IYKYK
+              I&apos;m in the arena trying stuff. some will work, some wont. but always learning. IYKYK
               </Text>
               <Text>
-              <a href="https://twitter.com/priynshuratnakr" style={{ color: "#005B99" }} target={"_blank"} rel={"noreferrer"}>Twitter</a> is my digital playground,<br></br> 
-              For more in-depth conversations, shoot ✉️ <a href="mailto:hello@priyanshuratnakar.com" style={{ color: "#005B99" }}>hello@priyanshuratnakar.com</a>
+              <a href="https://twitter.com/priynshuratnakr" style={{ color: "#005B99" }} target={"_blank"} rel={"noreferrer"}>twitter</a> is my digital playground,<br></br> 
+              for more in-depth conversations, shoot ✉️ <a href="mailto:hello@priyanshuratnakar.com" style={{ color: "#005B99" }}>hello@priyanshuratnakar.com</a>
               </Text>
             </Flex>
           </Flex>
@@ -74,6 +74,7 @@ export default function Home() {
               lineHeight={"28px"}
               fontWeight={"500"}
               opacity={"100%"}
+              style={{ color: "#005B99" }}
             >
               <a
               href="projects"
@@ -143,10 +144,11 @@ export default function Home() {
               lineHeight={"28px"}
               fontWeight={"500"}
               opacity={"100%"}
+              style={{ color: "#005B99" }}
             >
-              <a
-              href="reads"
-              >Reads</a>
+              <a href="reads"> 
+                Reads
+              </a>
             </Text>
             <Flex
               flexDir={"column"}
@@ -179,7 +181,7 @@ export default function Home() {
                 >
                   the ideal maze
                 </a>{" "}
-                — by balaji srinasan.{" "}
+                — by balaji srinivasan.{" "}
               </Text>
               <Text>
                 {" "}
@@ -203,6 +205,7 @@ export default function Home() {
               lineHeight={"28px"}
               fontWeight={"500"}
               opacity={"100%"}
+              style={{ color: "#005B99" }}
             >
               <a
               href="thoughts"
@@ -256,10 +259,10 @@ export default function Home() {
             <Divider borderColor={"black"} />
             {/* footer */}
             <Text>
-              <a href="index">Home </a> /
-              <a href="about"> About </a>  /
-              <a href="halloffame"> Hall of Fame </a> /
-              <a href="https://www.youtube.com/watch?v=igd_BRgBdKQ&list=PLbstBO6w7ALZMAdnTbFAeCbQlJVqj8KHz&pp=iAQB" target={"_blank"} rel="noreferrer"> Talks </a>
+              <a href="index">home </a> /
+              <a href="about"> about </a>  /
+              <a href="walloffame"> wall of fame </a> /
+              <a href="https://www.youtube.com/watch?v=igd_BRgBdKQ&list=PLbstBO6w7ALZMAdnTbFAeCbQlJVqj8KHz&pp=iAQB" target={"_blank"} rel="noreferrer"> talks </a>
             </Text>
 
 

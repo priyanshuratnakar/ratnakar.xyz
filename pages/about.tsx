@@ -64,12 +64,12 @@ export default function Home() {
               </Text>
             
               <Text>
-                Born into the ebb and flow of financial strains, my parents taught me a crucial lesson: dreams don't come with price tags. 
+                Born into the ebb and flow of financial strains, my parents taught me a crucial lesson: dreams don&apos;t come with price tags. 
                 My father is a voiceover artist and mumma housewife, their guidance became the background score to my passions.
               </Text>
               <Text>
                 I liked sketching and art flowed through my veins, being born in artistic family it was undeniable, right ? 
-                Despite the artistic pull, life's practicalities steered me towards academia, where I really struggled with almost every subjects. 
+                Despite the artistic pull, life&apos;s practicalities steered me towards academia, where I really struggled with almost every subjects. 
                 Yet, a pivotal moment arrived with the introduction of a computer into our home—a silent disruptor, an unexpected catalyst for unforeseen possibilities.
               </Text>
               <Flex flexDir={"column"} gap={"30px"}>
@@ -90,7 +90,7 @@ export default function Home() {
               </Text>
               <Text>
                 In 2012, the wave of technological change reached the T3 towns. It eventually made its way to our home too, 
-                marked by the arrival of a borrowed PC for my father's recording studio, replacing the archaic <a href="http://ahujapaworld.com/index.php?route=product/product&product_id=137" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer" >40-40 cassette recorders </a> of yesteryear.
+                marked by the arrival of a borrowed PC for my father&apos;s recording studio, replacing the archaic <a href="http://ahujapaworld.com/index.php?route=product/product&product_id=137" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer" >40-40 cassette recorders </a> of yesteryear.
               </Text>
               <Text>
                 An initial event fueled my curiosity for computers, when I had the chance to watch <a href="https://youtu.be/XxxAYut8iPg?si=2ZdcNwx23_zqy0tP" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer" >My friend Ganesha. </a>
@@ -131,7 +131,7 @@ export default function Home() {
                 src={"about/fame.png"}
                 borderRadius={"7px"}
                objectFit={"cover"}
-               alt="image's of priyanshu ratnakar"
+               alt="image of priyanshu ratnakar"
                />
               </Flex>
               <Text>

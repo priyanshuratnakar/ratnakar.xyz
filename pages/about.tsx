@@ -174,9 +174,6 @@ export default function Home() {
                alt="priyanshu in an art museum"
                />
               </Flex>
-              <Text>
-                - last updated on nov 11, 2023 by priyanshu
-              </Text>
             </Flex>
           </Flex>
         </Flex>

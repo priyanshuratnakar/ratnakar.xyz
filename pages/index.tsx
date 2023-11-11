@@ -62,7 +62,7 @@ export default function Home() {
               I&apos;m in the arena trying stuff. some will work, some wont. but always learning. IYKYK
               </Text>
               <Text>
-              <a href="https://twitter.com/priynshuratnakr" style={{ color: "#005B99" }} target={"_blank"} rel={"noreferrer"}>twitter</a> is my digital playground,<br></br> 
+              <a href="https://twitter.com/priynshuratnakr" style={{ color: "#005B99" }} target={"_blank"} rel={"noreferrer"}>Twitter</a> is my digital playground,<br></br> 
               for more in-depth conversations, shoot ✉️ <a href="mailto:hello@priyanshuratnakar.com" style={{ color: "#005B99" }}>hello@priyanshuratnakar.com</a>
               </Text>
             </Flex>

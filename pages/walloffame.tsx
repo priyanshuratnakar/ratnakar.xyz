@@ -43,7 +43,7 @@ export default function Home() {
                 Wall of Fame
               </Text> 
               <Text opacity={"75%"}>I dont set out to win awards. I dont think any entrepreneurs does, but when you receive an award, 
-              its an affirmation: it means that people appreciate what you do. 
+              it&apos;s an affirmation: it means that people appreciate what you do.
               Every award I have received is a confirmation of something I have done, and that motivates me to push a little harder. 🥂</Text>
             </Flex>
           </Flex>
@@ -52,10 +52,10 @@ export default function Home() {
             
             <Flex flexDir={"column"} gap={"30px"}>
             <Image
-              src={"about/awards.JPG"}
+              src={"awards.JPG"}
               borderRadius={"7px"}
               objectFit={"cover"}
-              alt="image of awards"
+              alt="image of awards recived by priyanshu ratnakar"
             />
             </Flex>
           

@@ -74,7 +74,6 @@ export default function Home() {
               lineHeight={"28px"}
               fontWeight={"500"}
               opacity={"100%"}
-              style={{ color: "#005B99" }}
             >
               <a
               href="projects"
@@ -144,7 +143,6 @@ export default function Home() {
               lineHeight={"28px"}
               fontWeight={"500"}
               opacity={"100%"}
-              style={{ color: "#005B99" }}
             >
               <a href="reads"> 
                 Reads
@@ -205,7 +203,6 @@ export default function Home() {
               lineHeight={"28px"}
               fontWeight={"500"}
               opacity={"100%"}
-              style={{ color: "#005B99" }}
             >
               <a
               href="thoughts"

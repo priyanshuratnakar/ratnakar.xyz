@@ -320,7 +320,7 @@ export default function Home() {
                   rel={"noreferrer"}
                   style={{ color: "#005B99", fontWeight: "500" }}
                 >
-                  Fisherman's Guide To Writing
+                  Fisherman&apos;s Guide To Writing
                 </a>{" "}
                 — John Nicholas{" "}
               </Text>

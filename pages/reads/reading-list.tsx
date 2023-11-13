@@ -25,7 +25,7 @@ export default function Home() {
           gap={"45px"}
           flexDir={"column"}
         >
-          <Flex flexDir={"column"} gap={"30px"}>
+          <Flex flexDir={"column"} gap={"20px"}>
             <Flex
               flexDir={"column"}
               gap={"20px"}
@@ -37,12 +37,12 @@ export default function Home() {
                <Text
               color={"black"}
               fontSize={["21px", "21px", "24px"]}
-              lineHeight={"28px"}
+              lineHeight={"5px"}
               fontWeight={"500"}
               opacity={"100%"}>
-                Reading list 
+                Reading list
               </Text> 
-              <Text opacity={"75%"}>explore my personal haven of evergreen all time favorites 📚✨</Text>
+              <Text opacity={"75%"}>greatest reads of all time curated over the years for a polymath. ⚡️</Text>
             </Flex>
             <Divider borderColor={"black"} />
           </Flex>

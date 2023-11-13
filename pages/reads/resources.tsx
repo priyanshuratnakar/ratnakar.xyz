@@ -25,7 +25,7 @@ export default function Home() {
           gap={"45px"}
           flexDir={"column"}
         >
-          <Flex flexDir={"column"} gap={"30px"}>
+          <Flex flexDir={"column"} gap={"20px"}>
             <Flex
               flexDir={"column"}
               gap={"20px"}
@@ -37,16 +37,16 @@ export default function Home() {
                <Text
               color={"black"}
               fontSize={["21px", "21px", "24px"]}
-              lineHeight={"28px"}
+              lineHeight={"5px"}
               fontWeight={"500"}
               opacity={"100%"}>
-                Resources 
+                Resources
               </Text> 
-              <Text opacity={"75%"}> collected over the years </Text>
+              <Text opacity={"75%"}>underdevelopment 🛠️</Text>
             </Flex>
             <Divider borderColor={"black"} />
           </Flex>
-          <Flex gap={"30px"} flexDir={"column"}>
+          {/* <Flex gap={"30px"} flexDir={"column"}>
             <Flex
               flexDir={"column"}
               gap={"5px"}
@@ -188,7 +188,7 @@ export default function Home() {
                 — triveni singh
               </Text>             
             </Flex>
-          </Flex>
+          </Flex> */}
         </Flex>
       </motion.div>
     </Flex>

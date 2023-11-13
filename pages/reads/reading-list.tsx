@@ -63,9 +63,9 @@ export default function Home() {
                   rel={"noreferrer"}
                   style={{color: "#005B99", fontWeight: "500" }}
                 >
-                 note-taking is time travel
+                 Note-Taking is time travel
                 </a>{" "}
-                — david perell{" "}
+                — David perell{" "}
               </Text>
               <Text>
                 <a
@@ -75,9 +75,9 @@ export default function Home() {
                   rel={"noreferrer"}
                   style={{color: "#005B99", fontWeight: "500" }}
                 >
-                 how to stay focused
+                 How to stay focused
                 </a>{" "}
-                — ali abdaal{" "}
+                — Ali Abdaal{" "}
               </Text>
               <Text>
                 <a
@@ -87,21 +87,22 @@ export default function Home() {
                   rel={"noreferrer"}
                   style={{color: "#005B99", fontWeight: "500" }}
                 >
-                  zenshin
+                  Zenshin
                 </a>{" "}
-                — james cleaar
+                — James Cleaar
               </Text>
+
               <Text>
                 <a
                   className={"project"}
-                  href={"https://aliabdaal.com/how-to-stay-focused/"}
+                  href={"https://blog.samaltman.com/advice-for-ambitious-19-year-olds"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ color: "#005B99", fontWeight: "500" }}
                 >
-                  how to stay focused
+                  Advice for Ambitious 19-Year-Olds
                 </a>{" "}
-                — ali abdaal{" "}
+                — Sam Altman{" "}
               </Text>
 
               <Text>

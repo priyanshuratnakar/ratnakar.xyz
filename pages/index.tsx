@@ -27,7 +27,7 @@ export default function Home() {
         >
           <Flex flexDir={"column"} gap={"30px"}>
             <Image
-              src={"cover.png"}
+              src={"cover.gif"}
               alt={"hero"}
               h={["130px", "130px", "196px"]}
               borderRadius={"7px"}

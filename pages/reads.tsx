@@ -67,8 +67,6 @@ export default function Home() {
                 <a 
                   className={"project"}
                   href={"reads/reading-list"}
-                  target={"_blank"}
-                  rel={"noreferrer"}
                   style={{fontWeight: "500" }}>
                   reading list
                 </a>
@@ -77,8 +75,6 @@ export default function Home() {
                 <a 
                   className={"project"}
                   href={"reads/resources"}
-                  target={"_blank"}
-                  rel={"noreferrer"}
                   style={{fontWeight: "500" }}>
                   resources
                 </a>

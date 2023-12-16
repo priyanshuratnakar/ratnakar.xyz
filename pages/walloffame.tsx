@@ -94,6 +94,193 @@ export default function Home() {
             </Flex>
 
             <Flex gap={"30px"} flexDir={"column"}>
+            <Text
+              fontSize={["21px", "21px", "24px"]}
+              lineHeight={"28px"}
+              fontWeight={"500"}
+              opacity={"100%"}
+            >
+            Talks 
+            </Text>
+            <Flex
+              flexDir={"column"}
+              gap={"20px"}
+              fontSize={["14px", "14px", "16px"]}
+              lineHeight={"28px"}
+              fontWeight={"normal"}
+              opacity={"95%"}
+            >
+            <Text> 
+              <ul>
+              <li>
+                <a 
+                href="https://www.instagram.com/p/C0QhoaGSyr1/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+                target={"_blank"}
+                rel={"noreferrer"}
+                style={{ color: "#005B99", fontWeight: "500" }}>
+                Impact of AI & innovation, Panel Discussion
+                </a>  - Y20 Hindu, DU
+              </li>
+              <li>
+                  <a 
+                  href="https://www.instagram.com/p/C0BCz-SyYGB/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Safety in the Age of AI
+                  </a>  - CVS, DU
+              </li>
+              <li>
+                  <a 
+                  href="#" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Innovation and Start-up Ecosystem, Panel Discussion
+                  </a> - Ramanujan, DU
+              </li>
+              <li>
+                  <a 
+                  href="https://www.instagram.com/p/CuCjcVry_QJ/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Safety in the Age of AI
+                  </a> - IIT, Delhi
+              </li>
+              <li>
+                  <a 
+                  href="https://www.instagram.com/p/Co9bGY3Stfl/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Safety
+                  </a> - Dwarka International
+              </li>
+              <li>
+                  <a 
+                  href="https://www.instagram.com/p/CopShD2BfZC/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Security Challenges and Emerging Trends
+                  </a> - Jesus and Mary, DU
+              </li>
+              <li>
+                  <a 
+                  href="https://youtu.be/wvBYthych74?si=GHmSjw-vzlZRRskY" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Safety in the Age of AI
+                  </a> - IIT, Patna
+              </li>
+              <li>
+                  <a 
+                  href="https://www.instagram.com/p/CoueR-hNK8G/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Blockchain & Smart Contract Security
+                  </a> - Integral University, Lucknow
+              </li>
+              <li>
+                  <a 
+                  href="https://www.instagram.com/p/CfWLePbjzQf/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Security and Safety
+                  </a> - SGTB Khalsa, DU
+              </li>
+              <li>
+                  <a 
+                  href="https://www.instagram.com/p/CcYlKD3hdQ9/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Media & Information Literacy
+                  </a> - UNESCO
+              </li>
+               <li>
+                  <a 
+                  href="https://www.instagram.com/p/CcVuNCbhuHw/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Security & Hackathon
+                  </a> - CrossKnot
+              </li>
+              <li>
+                  <a 
+                  href="https://www.youtube.com/watch?v=rhWyt68yuI0" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Security & AI
+                  </a> - TeensInAI, Fiji
+              </li>
+              <li>
+                  <a 
+                  href="https://www.instagram.com/p/CIQz_AJsccq/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Security & Safety
+                  </a> - MacSecuritySolution
+              </li>
+              <li>
+                  <a 
+                  href="https://www.youtube.com/watch?v=NqvNFwa0hQc&t=1s" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Security & AI
+                  </a> - Bsides, Maharashtra
+              </li>
+              <li>
+                  <a 
+                  href="https://www.facebook.com/Priyanshuratnakarofficial/posts/pfbid0tq4aefmTjS4DpuXfHjZSCXhfGfTTY5pBYdoPkh9Miw73KqX2Mw71bN8qGn7Lbbnbl" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Security, Startups & Entrepreneurship
+                  </a> - Leo club
+              </li>
+              <li>
+                  <a 
+                  href="https://www.youtube.com/watch?v=R22-7xCjIRE" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  IOT Security & the Future of Cyber Security
+                  </a> - HacSecurity
+              </li>
+              <li>
+                  <a 
+                  href="https://www.youtube.com/watch?v=igd_BRgBdKQ" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Security & Startups
+                  </a> - RestCon
+              </li>
+              <li>
+                  <a 
+                  href="https://www.instagram.com/p/B2TpTxWHRQo/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" 
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  Cyber Security, Startups & Entrepreneurship
+                  </a> - Gurugram Achievers Award
+              </li>
+            </ul>
+            </Text>
+            </Flex>
+           
+            </Flex>
+
+            <Flex gap={"30px"} flexDir={"column"}>
 
             <Text
               fontSize={["21px", "21px", "24px"]}

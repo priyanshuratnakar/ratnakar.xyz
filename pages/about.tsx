@@ -42,8 +42,8 @@ export default function Home() {
               opacity={"100%"}>
                 Who am I? 
               </Text> 
-              <Text>
-                last updated on nov 11, 2023
+              <Text opacity={"75%"}>
+                last updated on dec 25, 2023
               </Text>
               <Divider borderColor={"black"} />
               <Text>

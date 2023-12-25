@@ -258,7 +258,7 @@ export default function Home() {
             <Text>
               <a href="index">home </a> /
               <a href="about"> about </a>  /
-              <a href="walloffame"> wall of fame </a> /
+              <a href="wall-of-wins"> wall of wins </a> /
               <a href="https://www.buymeacoffee.com/priyanshuratnakar" target={"_blank"} rel="noreferrer"> support </a>
             </Text>
 

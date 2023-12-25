@@ -259,7 +259,7 @@ export default function Home() {
               <a href="index">home </a> /
               <a href="about"> about </a>  /
               <a href="walloffame"> wall of fame </a> /
-              <a href="buymeacoffee.com/priyanshuratnakar" target={"_blank"} rel="noreferrer"> support </a>
+              <a href="https://www.buymeacoffee.com/priyanshuratnakar" target={"_blank"} rel="noreferrer"> support </a>
             </Text>
 
 

@@ -220,7 +220,7 @@ export default function Home() {
                 ✍️{" "}
                 <a
                   className={"project"}
-                  href={"blogs/college-is-important"}
+                  href={"blogs/i-gifted-my-father-his-dream-bike.tsx"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
@@ -231,7 +231,7 @@ export default function Home() {
               <Text>
                 <a
                   className={"project"}
-                  href={"blogs/working-70-hours"}
+                  href={"#"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
@@ -243,7 +243,7 @@ export default function Home() {
                 {" "}
                 <a
                   className={"project"}
-                  href={"blogs/early-quiters"}
+                  href={"#"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}

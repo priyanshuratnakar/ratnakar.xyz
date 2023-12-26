@@ -51,7 +51,7 @@ export default function Home() {
               </Text>
               <Flex flexDir={"column"} gap={"30px"}>
                 <Image
-                  src={"../blogs/vespa.png"}
+                  src={"../blogs/vespa.jpg"}
                   borderRadius={"7px"}
                   objectFit={"cover"}
                   alt="Priyanshu on LML Vespa"
@@ -118,7 +118,7 @@ export default function Home() {
               </Text>
               <Flex flexDir={"column"} gap={"30px"}>
                 <Image
-                src={"../blogs/bullet.png"}
+                src={"../blogs/bullet.jpg"}
                 borderRadius={"7px"}
                 objectFit={"cover"}
                 alt="royal enfield bullet 350"

@@ -58,17 +58,17 @@ export default function Home() {
                 />
               </Flex>
               <Text>
-                I can still vividly recall those early memories, how he bought a cycle and added a small seat for me on the rod-frame. How he peddled me to school 
-                – a quirky ride that invited teasing from classmates, who couldn't quite grasp the lengths a parent would go for their child.
+                I can still vividly recall those early memories, how he bought a cycle and added a small seat for me on the rod&ndash;frame. How he peddled me to school 
+                &ndash; a quirky ride that invited teasing from classmates, who couldn&apos;t quite grasp the lengths a parent would go for their child.
               </Text>
               <Text>
-                As the years rolled by, we eventually welcomed a Bajaj Platina into our lives – papa&apos;s first real bike. 
+                As the years rolled by, we eventually welcomed a Bajaj Platina into our lives &ndash; papa&apos;s first real bike. 
                 It became a reliable companion, accompanying us through the twists and turns of life. 
-                But, like the pages of a well-loved book, it started showing its age after over 15+ years of faithful service.  
-                Recently I got a call from my mumma mentioning how our old Platina is and wasn't doing so well anymore. It started showing its age. 
+                But, like the pages of a well&ndash;loved book, it started showing its age after over 15+ years of faithful service.  
+                Recently I got a call from my mumma mentioning how our old Platina is and wasn&apos;t doing so well anymore. It started showing its age. 
               </Text>
               <Text>
-                and then it hit me - a profound realisation, and I knew what I had to do. 
+                and then it hit me &ndash; a profound realisation, and I knew what I had to do. 
               </Text>
               <Text>
                 Today, I might have made a bad financial decision, but it just felt right. I bought my dad his dream bike. 
@@ -85,7 +85,7 @@ export default function Home() {
               </Text>
               <Text>
                 Seeing him age, watching his hands shivering as he maneuvered the road, tugged at my heartstrings. 
-                I couldn't help but wish I could've handed him the keys to his dream ride a bit earlier, giving him the chance for a road trip or a breezy long drive when he was a bit younger.
+                I couldn&apos;t help but wish I could&apos;ve handed him the keys to his dream ride a bit earlier, giving him the chance for a road trip or a breezy long drive when he was a bit younger.
               </Text>
               <Text
                 fontSize={["21px", "21px", "24px"]}
@@ -96,22 +96,22 @@ export default function Home() {
                And this is why
               </Text>
               <Text>
-                You should do it! I should do it! We should do it. Whether it's that long-delayed Goa trip, the guitar you've been eyeing, 
-                the book on your wishlist, or a thoughtful gift waiting to find its moment – that moment is now.
+                You should do it! I should do it! We should do it. Whether it&apos;s that long&ndash;delayed Goa trip, the guitar you&apos;ve been eyeing, 
+                the book on your wishlist, or a thoughtful gift waiting to find its moment &ndash; that moment is now.
               </Text>
               <Text>
-                This whole experience slapped me with a truth we often forget – life is about making memories, especially with the people we love.
+                This whole experience slapped me with a truth we often forget &ndash; life is about making memories, especially with the people we love.
               </Text>
               <Text>
-                Sometimes, in the symphony of life, you've got to prioritise the emotions and joy of your family and loved ones over making the most sensible financial choices.
+                Sometimes, in the symphony of life, you&apos;ve got to prioritise the emotions and joy of your family and loved ones over making the most sensible financial choices.
               </Text>
               <Text>
-                In the grand scheme of things, sometimes it's the most seemingly impractical choices that hold the most sentimental value.
+                In the grand scheme of things, sometimes it&apos;s the most seemingly impractical choices that hold the most sentimental value.
                 After all, whom do we strive for if not the ones who have shaped our existence? 
               </Text>
               <Text>
-                We're not just hustling for ourselves; we're working to create moments of happiness and connection for those we hold dear. 
-                It's in these moments, fueled by love and shared dreams, that the true richness of life unfolds. 
+                We&apos;re not just hustling for ourselves; we&apos;re working to create moments of happiness and connection for those we hold dear. 
+                It&apos;s in these moments, fueled by love and shared dreams, that the true richness of life unfolds. 
               </Text>
               <Text>
                 I&apos;m happy that before his birthday, he will finally ride his dream bike with a heart full of pride. This journey, not just on the asphalt but through the tapestry of our shared memories, is a gift that goes beyond mere of any note and cents.
@@ -120,8 +120,8 @@ export default function Home() {
                 <Image
                 src={"../blogs/bullet.png"}
                 borderRadius={"7px"}
-               objectFit={"cover"}
-               alt="royal enfield bullet 350"
+                objectFit={"cover"}
+                alt="royal enfield bullet 350"
                />
               </Flex>
               <Text>Originally published on my <a href="https://x.com/priynshuratnakr/status/1733219090385571951?s=20" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer">twitter</a> first.</Text>

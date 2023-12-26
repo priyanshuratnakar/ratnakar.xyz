@@ -58,10 +58,20 @@ export default function Home() {
               <Text>
                 <a 
                   className={"project"}
-                  href={"#"}
+                  href={"blogs/i-gifted-my-father-his-dream-bike"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ color: "#005B99", fontWeight: "500" }}>
+                  i gifted my father his dream bike
+                </a>
+              </Text>
+              <Text>
+                <a 
+                  className={"project"}
+                  href={"#"}
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  style={{fontWeight: "500" }}>
                   why colleges are important
                 </a>
               </Text>
@@ -71,7 +81,7 @@ export default function Home() {
                   href={"#"}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  style={{fontWeight: "500" }}>
                   Why 75% attendance is important
                 </a>
               </Text>
@@ -81,7 +91,7 @@ export default function Home() {
                   href={"#"}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  style={{fontWeight: "500" }}>
                   why colleges are important
                 </a>
               </Text>
@@ -91,7 +101,7 @@ export default function Home() {
                   href={"#"}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  style={{fontWeight: "500" }}>
                   Generation of Early Quitters
                 </a>
               </Text>
@@ -101,7 +111,7 @@ export default function Home() {
                   href={"#"}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  style={{fontWeight: "500" }}>
                   CBC VS Recorded lectures
                 </a>
               </Text>
@@ -111,7 +121,7 @@ export default function Home() {
                   href={"#"}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  style={{fontWeight: "500" }}>
                   The era of community 
                 </a>
               </Text>
@@ -121,7 +131,7 @@ export default function Home() {
                   href={"#"}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  style={{fontWeight: "500" }}>
                   Why reading fiction is important
                 </a>
               </Text>
@@ -131,7 +141,7 @@ export default function Home() {
                   href={"#"}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  style={{fontWeight: "500" }}>
                   Be like a lion
                 </a>
               </Text>
@@ -141,7 +151,7 @@ export default function Home() {
                   href={"#"}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  style={{fontWeight: "500" }}>
                   Delegating work, smart or lazy ?
                 </a>
               </Text>
@@ -151,7 +161,7 @@ export default function Home() {
                   href={"#"}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  style={{fontWeight: "500" }}>
                   starting early
                 </a>
               </Text>
@@ -161,7 +171,7 @@ export default function Home() {
                   href={"#"}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  style={{fontWeight: "500" }}>
                   working 70 hours a week
                 </a>
               </Text>

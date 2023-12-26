@@ -220,7 +220,7 @@ export default function Home() {
                 ✍️{" "}
                 <a
                   className={"project"}
-                  href={"blogs/i-gifted-my-father-his-dream-bike.tsx"}
+                  href={"blogs/i-gifted-my-father-his-dream-bike"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}

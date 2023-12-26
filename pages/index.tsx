@@ -225,7 +225,7 @@ export default function Home() {
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
                 >
-                  why colleges are important
+                  i gifted my father his dream bike
                 </a>
               </Text>
               <Text>

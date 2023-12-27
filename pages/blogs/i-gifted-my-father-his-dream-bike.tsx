@@ -47,7 +47,7 @@ export default function Home() {
               </Text>
               <Divider borderColor={"black"} />
               <Text>
-                When I was 3, I got jaundice. It was a tough time for my family, especially my father, who ended up selling his beloved Bajaj scooter to foot the bill for my hospital stay. 
+                When I was 3, I got <a href="https://en.wikipedia.org/wiki/Jaundice" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer">jaundice.</a> It was a tough time for my family, especially my father, who ended up selling his beloved <a href="https://en.wikipedia.org/wiki/Bajaj_Chetak" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer">Bajaj scooter</a> to foot the bill for my hospital stay. 
               </Text>
               <Flex flexDir={"column"} gap={"30px"}>
                 <Image
@@ -62,7 +62,7 @@ export default function Home() {
                 &ndash; a quirky ride that invited teasing from classmates, who couldn&apos;t quite grasp the lengths a parent would go for their child.
               </Text>
               <Text>
-                As the years rolled by, we eventually welcomed a Bajaj Platina into our lives &ndash; papa&apos;s first real bike. 
+                As the years rolled by, we eventually welcomed a <a href="https://pbs.twimg.com/media/EvQc5ZcVcAMkfmL?format=jpg&name=medium" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer">Bajaj Platina</a> into our lives &ndash; papa&apos;s first real bike. 
                 It became a reliable companion, accompanying us through the twists and turns of life. 
                 But, like the pages of a well&ndash;loved book, it started showing its age after over 15+ years of faithful service.  
                 Recently I got a call from my mumma mentioning how our old Platina is and wasn&apos;t doing so well anymore. It started showing its age. 
@@ -126,6 +126,8 @@ export default function Home() {
               </Flex>
               <Text>Originally published on my <a href="https://x.com/priynshuratnakr/status/1733219090385571951?s=20" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer">twitter</a> first.</Text>
             </Flex>
+            <Divider borderColor={"black"} />
+            <Text>subscribe to get my write-ups, curated reading lists, book gems, resources, and more.</Text>
             <SignUpFormReact></SignUpFormReact>
           </Flex>
         </Flex>

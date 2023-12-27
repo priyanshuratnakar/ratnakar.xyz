@@ -48,11 +48,11 @@ export default function Home() {
               lineHeight={"28px"}
               fontWeight={"500"}
               opacity={"100%"}>
-                you're invited ✨
+                you&apos;re invited ✨
               </Text> 
               <Divider borderColor={"black"} />
               <Text>
-                subscribe below, and let's turn your inbox into a cozy corner for my write-ups, curated reading lists, book gems, resources, and more. spoiler alert - it's gonna be fun. 📚✉️
+                subscribe below, and let&apos;s turn your inbox into a cozy corner for my write-ups, curated reading lists, book gems, resources, and more. spoiler alert &lsquo; it's gonna be fun. 📚✉️
               </Text>
             </Flex>
             </Flex>

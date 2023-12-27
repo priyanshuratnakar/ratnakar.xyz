@@ -13,11 +13,7 @@ export default function Home() {
       color={"#2E353F"}
       fontFamily={"Outfit, Roboto Mono"}
     >
-      <motion.div
-        initial={{ y: "0%", opacity: "0" }}
-        animate={{ y: "0", opacity: "100%" }}
-        transition={{ delay: 0.15 }}
-      >
+      
         <Flex
           mt={"70px"}
           mb={"70px"}
@@ -59,7 +55,7 @@ export default function Home() {
             <SignUpFormReact></SignUpFormReact>
           </Flex>
         </Flex>
-      </motion.div>
+      
     </Flex>
   );
 }

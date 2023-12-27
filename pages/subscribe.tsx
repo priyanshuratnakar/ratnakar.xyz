@@ -52,7 +52,7 @@ export default function Home() {
               </Text> 
               <Divider borderColor={"black"} />
               <Text>
-                subscribe below, and let&apos;s turn your inbox into a cozy corner for my write-ups, curated reading lists, book gems, resources, and more. spoiler alert &lsquo; it's gonna be fun. 📚✉️
+                subscribe below, and let&apos;s turn your inbox into a cozy corner for my write-ups, curated reading lists, book gems, resources, and more. spoiler alert &lsquo; it&apos;s gonna be fun. 📚✉️
               </Text>
             </Flex>
             </Flex>

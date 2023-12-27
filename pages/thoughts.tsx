@@ -65,7 +65,7 @@ export default function Home() {
                   i gifted my father his dream bike
                 </a>
               </Text>
-              <Text>
+              {/* <Text>
                 <a 
                   className={"project"}
                   href={"#"}
@@ -174,7 +174,7 @@ export default function Home() {
                   style={{fontWeight: "500" }}>
                   working 70 hours a week
                 </a>
-              </Text>
+              </Text> */}
             </Flex>
           </Flex>
         </Flex>

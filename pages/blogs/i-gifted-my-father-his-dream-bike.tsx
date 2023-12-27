@@ -1,6 +1,6 @@
 import { Flex, Text, Divider, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-
+import SignUpFormReact from "../newsletter";
 export default function Home() {
   return (
     <Flex
@@ -126,6 +126,7 @@ export default function Home() {
               </Flex>
               <Text>Originally published on my <a href="https://x.com/priynshuratnakr/status/1733219090385571951?s=20" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer">twitter</a> first.</Text>
             </Flex>
+            <SignUpFormReact></SignUpFormReact>
           </Flex>
         </Flex>
       </motion.div>

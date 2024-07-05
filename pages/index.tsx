@@ -236,7 +236,7 @@ export default function Home() {
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
                 >
-                  working 70 hours a day
+                  working 70 hours a week
                 </a>
               </Text>
               <Text>

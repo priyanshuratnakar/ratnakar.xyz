@@ -63,7 +63,7 @@ export default function Home() {
               </Text>
               <Text>
               <a href="https://twitter.com/priynshuratnakr" style={{ color: "#005B99" }} target={"_blank"} rel={"noreferrer"}>Twitter</a> is my digital playground,<br></br> 
-              for more in-depth conversations, shoot ✉️ <a href="mailto:hello@priyanshuratnakar.com" style={{ color: "#005B99" }}>hello@priyanshuratnakar.com</a>
+              for more in-depth conversations, shoot ✉️ <a href="mailto:0xpriyanshu@gmail.com" style={{ color: "#005B99" }}>0xpriyanshu@gmail.com</a>
               </Text>
             </Flex>
           </Flex>

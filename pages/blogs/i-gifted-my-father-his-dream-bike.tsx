@@ -124,7 +124,6 @@ export default function Home() {
                 alt="royal enfield bullet 350"
                />
               </Flex>
-              <blockquote class="twitter-tweet"><p lang="en" dir="ltr">hi! we&#39;re looking for a flatmate for our 2bhk in koramangala, near wipro park. <br><br>rent: 18.5k (including maintenance) deposit: 50k <br>set-up cost: 8k (including refundable appliance deposit).<br><br>dm if interested :)<a href="https://twitter.com/fmrbangalore?ref_src=twsrc%5Etfw">@fmrbangalore</a> <a href="https://twitter.com/MIBangalore?ref_src=twsrc%5Etfw">@MIBangalore</a> <a href="https://twitter.com/twitrbnb?ref_src=twsrc%5Etfw">@twitrbnb</a> <a href="https://twitter.com/BangaloreRoomi?ref_src=twsrc%5Etfw">@BangaloreRoomi</a> <a href="https://t.co/8ykIeHU1bk">pic.twitter.com/8ykIeHU1bk</a></p>&mdash; sanjana sharavan (@saltykarens) <a href="https://twitter.com/saltykarens/status/1826859136971407433?ref_src=twsrc%5Etfw">August 23, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
               <Text>Originally published on my <a href="https://x.com/priynshuratnakr/status/1733219090385571951?s=20" style={{ color: "#005B99" }} target={"_blank"} rel="noreferrer">twitter</a> first.</Text>
             </Flex>
             <Divider borderColor={"black"} />

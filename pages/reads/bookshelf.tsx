@@ -58,12 +58,25 @@ export default function Home() {
               opacity={"95%"}
             >
               <Text>
+                📖{" "}
+                <a
+                  className={"project"}
+                  href={"https://www.amazon.in/Read-Write-Own-Building-Internet/dp/1529925622/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.xX1EuOKNs6xI_9rZ3lWqlpw9oNbqWnjKVsD1Ia2mjkVmG7WV7LATfkcS3vEUyXjsmIFc7T4Up7cvTeXGgKWE30TPUCQfkl2t0HYCdZKFtDVqfmjeykptC9Mos7URilUwFPHk7PGdwnYzKLmJAW_bbhBFFNua0kZIYaSIJOcr3fupKWGiiwTlI6dSETTwZ-dKPeHHDgbaRQ9sAuO6UjjZ8vWZZiOx3dFYhXju3IarWgE.AwM864gniLpfEjqzZgK4-wBATFukp7bUqrOw1X81ORE&qid=1724532172&sr=8-1"}
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  style={{color: "#21822A", fontWeight: "500" }}
+                >
+                  Read Write Own
+                </a>{" "}
+                — by Chris Dixon.
+              </Text>
+              <Text>
                 <a
                   className={"project"}
                   href={"https://amzn.to/47osg5t"}
                   target={"_blank"}
                   rel={"noreferrer"}
-                  style={{ color: "#21822A", fontWeight: "500" }}
+                  style={{ fontWeight: "500" }}
                 >
                  stay dead
                 </a>{" "}

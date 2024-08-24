@@ -166,7 +166,7 @@ export default function Home() {
               <Text>
                 Sep&apos;23 it&apos;s time again, to move out and explore even more better opportunities. The unpredictable journey continues, an ongoing experiment, an exploration into the unknown.
               </Text>
-              <Text>Feb&apos;24 I moved here in Bangalore,initally crashed at a friend's place but now found a cozy place living there, found a job and now exploring what next.</Text>
+              <Text>Feb&apos;24 I moved here in Bangalore. Initally crashed at a friend&apos;s place but now found a cozy place living there, found a job and now exploring what next.</Text>
               <Flex flexDir={"column"} gap={"30px"}>
                 <Image
                 src={"about/priyanshu.png"}

@@ -165,9 +165,9 @@ export default function Home() {
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
                 >
-                  stay dead
+                  Read Write Own
                 </a>{" "}
-                — by jessie keane.
+                — by Chris Dixon.
               </Text>
               <Text>
                 <a

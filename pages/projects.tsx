@@ -79,6 +79,19 @@ export default function Home() {
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
                 >
+                  Wall of Lafda
+                </a>{" "}
+                — A curation of all the lafda on x [twitter]
+              </Text>
+
+              <Text>
+                <a
+                  className={"project"}
+                  href={"https://kabir.cybersurakshit.org"}
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  style={{ fontWeight: "500" }}
+                >
                   kabir
                 </a>{" "}
                 — AI chatbot to help cyber crime victims, 100+ lives impacted.

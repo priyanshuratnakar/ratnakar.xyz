@@ -60,11 +60,11 @@ export default function Home() {
               <Text>
                 1. publish a bestseller book <br></br>
                 2. have my own personal library  <br></br>
-                3. read 1000 great books (<a className={"project"} href={"bookshelf.tsx"} style={{ color: "#21822A", fontWeight: "500" }}>2% done</a>)<br></br>
-                4. India tour <a style={{ color: "#21822A", fontWeight: "500" }}>(22% done)</a><br></br>
+                3. read 1000 great books (<a className={"project"} href={"./reads/bookshelf.tsx"} style={{ color: "#21822A", fontWeight: "500" }}>2% done</a>)<br></br>
+                4. India tour <a style={{ color: "#21822A", fontWeight: "500" }}>(25% done)</a><br></br>
                 5. start my own company <br></br>
                 6. publish a research paper <br></br>
-                7. 100+ talks/sessions (<a className={"project"} href={"wall-of-fame.tsx"} style={{ color: "#21822A", fontWeight: "500" }}>20% done</a>)<br></br>
+                7. 100+ talks/sessions (<a className={"project"} href={"wall-of-wins.tsx"} style={{ color: "#21822A", fontWeight: "500" }}>22% done</a>)<br></br>
                 8. fly a plane <br></br>
                 9. skydiving <br></br>
                 10. scubadiving <br></br>
@@ -86,7 +86,7 @@ export default function Home() {
                 26. own a cafe <br></br>
                 27. see the seven wonders of the world <br></br>
                 28. go to space <br></br>
-                29. travel 7 continents
+                29. travel 7 continents <a style={{ color: "#21822A", fontWeight: "500" }}>(15% done)</a><br></br>
               </Text>
             </Flex>
           </Flex>

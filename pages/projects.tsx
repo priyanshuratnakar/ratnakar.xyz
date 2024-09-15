@@ -74,7 +74,20 @@ export default function Home() {
               <Text>
                 <a
                   className={"project"}
-                  href={"https://kabir.cybersurakshit.org"}
+                  href={"https://chromewebstore.google.com/detail/daily-affirmations/mpmpdeogebkmjnamknnallknglocdeek?hl=en-GB&authuser=0"}
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  style={{ fontWeight: "500" }}
+                >
+                  Daily Affirmations
+                </a>{" "}
+                — Displays a daily affirmation on every new tab.
+              </Text>
+
+              <Text>
+                <a
+                  className={"project"}
+                  href={"https://x.com/priynshuratnakr/status/1828087064753312087"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}

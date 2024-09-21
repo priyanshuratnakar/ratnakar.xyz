@@ -47,7 +47,7 @@ export default function Home() {
               </Text>
               <Divider borderColor={"black"} />
               <Text>
-                The first time I came to Bangalore, I bought a few postcards for her. They&apos;re still with me, in my folder. I wanted to give&apos;em to her on her birthday. Now, I&apos;m sitting here at my desk, looking at this letter, folded neatly. No postage stamp, no address. Just a few heartfelt words that will never be delivered. It's funny how words meant for someone can feel so heavy when they remain unsent.
+                The first time I came to Bangalore, I bought a few postcards for her. They&apos;re still with me, in my folder. I wanted to give&apos;em to her on her birthday. Now, I&apos;m sitting here at my desk, looking at this letter, folded neatly. No postage stamp, no address. Just a few heartfelt words that will never be delivered. It&apos;s funny how words meant for someone can feel so heavy when they remain unsent.
               </Text>
               <Text>
                 I wrote that letter for her during a quiet moment one evening when the weight of everything I felt couldn&apos;t be kept anymore. Our relationship was going through its ebbs and flows, as relationships do, but that evening, I felt it all, deeply. I wanted her to know what she meant to me. Beyond the arguments, beyond the misunderstandings, beyond the long silences that had settled between us.
@@ -71,7 +71,7 @@ export default function Home() {
                 If there&apos;s one thing I&apos;ve learned through this, it&apos;s &quot;Carpe Diem&quot; - seize the day. We need to stop waiting for the perfect moment to express how we feel. Perfection never comes. There&apos;s no ideal conversation, no perfect timing, no faultless apologies or confessions. What we have is now. And in the now, we have the power to say what needs to be said, to show love, to express gratitude, to be vulnerable. Because in the end, it&apos;s not the words we never said that haunt us—it&apos;s the opportunities we didn&apos;t take, the moments we let slip by.
               </Text>
               <Text>
-                Seize the day. Because you never really know when it&apos;s your last chance to tell someone how much they mean to you. And if you&apos;re lucky enough to have that moment, don't let it slip away.
+                Seize the day. Because you never really know when it&apos;s your last chance to tell someone how much they mean to you. And if you&apos;re lucky enough to have that moment, don&apos;t let it slip away.
               </Text>
             <Text>
                 That letter I wrote? It&apos;ll remain undelivered. I&apos;ll never know how she would have reacted, what it might have changed. But that&apos;s okay. What matters now is that it taught me something I wish I&apos;d learned earlier: when you love, when you care, when things matter, don&apos;t hold back. Don&apos;t let the fear of vulnerability or the illusion of time stop you from living fully in the present.

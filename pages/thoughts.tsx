@@ -58,6 +58,16 @@ export default function Home() {
               <Text>
                 <a 
                   className={"project"}
+                  href={"blogs/that-undelivered-letter"}
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  that undelivered letter
+                </a>
+              </Text>
+              <Text>
+                <a 
+                  className={"project"}
                   href={"blogs/i-gifted-my-father-his-dream-bike"}
                   target={"_blank"}
                   rel={"noreferrer"}

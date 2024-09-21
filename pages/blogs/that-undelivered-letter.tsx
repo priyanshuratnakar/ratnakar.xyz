@@ -3,16 +3,6 @@ import { motion } from "framer-motion";
 import SignUpFormReact from "../newsletter";
 export default function Home() {
   return (
-    <>
-    <Head>
-        <title>That Undelivered Letter</title>
-        <meta property="og:title" content="That Undelivered Letter" />
-        <meta property="og:description" content="a personal essay about the importance of seizing the moment." />
-        <meta property="og:image" content="https://www.ratnakar.xyz/blogs/letter.png" />
-        <meta property="og:url" content="https://www.ratnakar.xyz/blogs/that-undelivered-letter" />
-        <meta property="og:type" content="article" />
-      </Head>
-
     <Flex
       flexDir={"column"}
       minH={"100vh"}
@@ -102,6 +92,5 @@ export default function Home() {
         </Flex>
       </motion.div>
     </Flex>
-    </>
   );
 }

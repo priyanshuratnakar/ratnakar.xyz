@@ -220,23 +220,23 @@ export default function Home() {
                 ✍️{" "}
                 <a
                   className={"project"}
+                  href={"blogs/that-undelivered-letter"}
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  style={{ fontWeight: "500" }}
+                >
+                  that undelivered letter
+                </a>
+              </Text>
+              <Text>
+              <a
+                  className={"project"}
                   href={"blogs/i-gifted-my-father-his-dream-bike"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
                 >
                   i gifted my father his dream bike
-                </a>
-              </Text>
-              <Text>
-                <a
-                  className={"project"}
-                  href={"#"}
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                  style={{ fontWeight: "500" }}
-                >
-                  working 70 hours a week
                 </a>
               </Text>
               <Text>

@@ -216,7 +216,7 @@ export default function Home() {
               fontWeight={"normal"}
               opacity={"95%"}
             >
-              <Text>
+              {/* <Text>
                 ✍️{" "}
                 <a
                   className={"project"}
@@ -227,7 +227,7 @@ export default function Home() {
                 >
                   that undelivered letter
                 </a>
-              </Text>
+              </Text> */}
               <Text>
               <a
                   className={"project"}
@@ -243,12 +243,12 @@ export default function Home() {
                 {" "}
                 <a
                   className={"project"}
-                  href={"#"}
+                  href={"blogs/the-indian-gaming-thesis"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
                 >
-                  generation of early quiters
+                  the indian gaming thesis
                 </a>
               </Text>
             </Flex>

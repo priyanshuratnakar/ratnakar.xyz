@@ -55,7 +55,7 @@ export default function Home() {
               fontWeight={"normal"}
               opacity={"95%"}
             >
-              <Text>
+              {/* <Text>
                 <a 
                   className={"project"}
                   href={"blogs/that-undelivered-letter"}
@@ -64,15 +64,15 @@ export default function Home() {
                   style={{ color: "#005B99", fontWeight: "500" }}>
                   that undelivered letter
                 </a>
-              </Text>
+              </Text> */}
               <Text>
                 <a 
                   className={"project"}
-                  href={"blogs/gaming"}
+                  href={"blogs/the-indian-gaming-thesis"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ color: "#005B99", fontWeight: "500" }}>
-                  gaming
+                  the indian gaming thesis: why now is the time
                 </a>
               </Text>
               <Text>

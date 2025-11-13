@@ -1,3 +1,4 @@
+// pages/resume.tsx
 import { Flex, Text, Divider, Link } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
@@ -15,7 +16,7 @@ export default function Home() {
       px={4}
     >
       <motion.div
-        initial={{ y: "0%", opacity: 0 }}
+        initial={{ y: 0, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.15 }}
       >
@@ -50,7 +51,7 @@ export default function Home() {
             >
               <Text textTransform={"lowercase"}>
                 <Text as="span" fontWeight={600}>
-                  founder’s office at docklabs
+                  founder&apos;s office at docklabs
                 </Text>{" "}
                 — mar 2025 to oct 2025
                 <br />
@@ -87,7 +88,7 @@ export default function Home() {
                   fontWeight={600}
                   textDecoration={"underline"}
                 >
-                  founder’s office at fbi [farcaster builders international]
+                  founder&apos;s office at fbi [farcaster builders international]
                 </Link>{" "}
                 — mar 2024 to aug 2024
                 <br />
@@ -215,7 +216,7 @@ export default function Home() {
                   emerge / propaganda / haberdashery / atlas / anima
                 </Text>
                 {" — "}
-                design and go-to-market support while operating from docklabs' founder’s
+                design and go-to-market support while operating from docklabs founder&apos;s
                 office.
               </Text>
 
@@ -247,9 +248,9 @@ export default function Home() {
               <Text textTransform={"lowercase"}>creator campaigns</Text>
               <Text textTransform={"lowercase"}>community building</Text>
               <Text textTransform={"lowercase"}>product growth (pm)</Text>
-              <Text textTransform={"lowercase"}>content & short-form video</Text>
+              <Text textTransform={"lowercase"}>content and short-form video</Text>
               <Text textTransform={"lowercase"}>partnerships</Text>
-              <Text textTransform={"lowercase"}>research & content</Text>
+              <Text textTransform={"lowercase"}>research and content</Text>
               <Text textTransform={"lowercase"}>basic android dev</Text>
               <Text textTransform={"lowercase"}>security research</Text>
             </Flex>
@@ -259,4 +260,3 @@ export default function Home() {
     </Flex>
   );
 }
-```

@@ -1,4 +1,4 @@
-import { Flex, Text, Divider, Image } from "@chakra-ui/react";
+import { Flex, Text, Divider } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -47,6 +47,7 @@ export default function Home() {
             </Flex>
             <Divider borderColor={"black"} />
           </Flex>
+
           <Flex gap={"30px"} flexDir={"column"}>
             <Flex
               flexDir={"column"}
@@ -56,140 +57,133 @@ export default function Home() {
               fontWeight={"normal"}
               opacity={"95%"}
             >
+
               <Text>
-                <a
-                  className={"project"}
-                  href={"https://shorturl.at/iuM05"}
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                  style={{ fontWeight: "500" }}
-                >
-                  Founder&apos;s office at FBI [Farcaster Builders International]
-                </a>{" "}
-                — mar&apos;24 to aug&apos;24
+                <span style={{ fontWeight: "500" }}>
+                  Founder’s Office at Docklabs
+                </span>{" "}
+                — mar 2025 to oct 2025
                 <br />
-                Global founders and builders painting the next wave of consumer crypto on Farcaster. Heard of Superteam? We are Superteam for base.{" "}
+                Led day-to-day operations, project & client management. worked on
+                products like Emerge, Propaganda, Haberdashery, Atlas, ANiMA and more.
+              </Text>
+
+              <Text>
+                <span style={{ fontWeight: "500" }}>Co-founder at Digits</span> — 2025
+                <br />
+                built a farcaster-native fun maths mini-app on base. led growth &
+                marketing from 0→1. ran multiple video campaigns. hit 500k+ peak mkt cap,
+                10k+ games, 3k+ users and won a base builder grant.
+              </Text>
+
+              <Text>
+                <span style={{ fontWeight: "500" }}>Independent Agent</span> — sep 2024 to feb 2025
+                <br />
+                consulted projects like metadao, baseapp, gasyard, bitmor on growth.
               </Text>
 
               <Text>
                 <a
-                  className=""
-                  href=""
+                  className="project"
+                  href="https://shorturl.at/iuM05"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ fontWeight: "500" }}
+                >
+                  Founder's office at FBI [Farcaster Builders International]
+                </a>{" "}
+                — mar 2024 to aug 2024
+                <br />
+                led operations, growth, marketing & community. grew community to 1000+
+                based builders. organized & hosted india-wide events, bootcamps &
+                fellowships.
+              </Text>
+
+              <Text>
+                <a
+                  href="https://www.ratnakar.xyz/resume"
                   target="_blank"
                   rel="noreferrer"
                   style={{ fontWeight: "500" }}
                 >
                   Growth Lead at Questbook
                 </a>{" "}
-                — 2024 to 2024
+                — jan 2024 to mar 2024
                 <br />
-                Questbook is building tools and infrastructure for enabling the future of pseudonymous, permissionless work.{" "}
+                closed multiple partnerships. worked as growth PM. helped ship features
+                that brought 5k+ builders into the product, socials & community.
+              </Text>
+
+              <Text>
+                <span style={{ fontWeight: "500" }}>Freelance</span> — sep 2023 to jan 2024
+                <br />
+                helped founders like andrew gazdeki, lenny rachitsky, tibo and more with
+                research & content. built fun projects.
               </Text>
 
               <Text>
                 <a
-                  className=""
-                  href=""
+                  href="https://www.ratnakar.xyz/resume"
                   target="_blank"
                   rel="noreferrer"
                   style={{ fontWeight: "500" }}
                 >
-                  Community &amp; Marketing Manager at SolidityScan
+                  Community & Marketing Manager at SolidityScan
                 </a>{" "}
-                — 2023 to 2023
+                — jan 2023 to aug 2023
                 <br />
-                Smart-contract scanning tool built to discover vulnerabilities &amp; mitigate risks in the code by CredShields{" "}
+                built twitter from 2k to 100k+ insights & 2k+ followers in 3 months.
+                started community from 0→1000+ active hackers. handled partnerships &
+                offline events.
               </Text>
 
               <Text>
                 <a
-                  className=""
-                  href=""
+                  href="https://www.ratnakar.xyz/resume"
                   target="_blank"
                   rel="noreferrer"
                   style={{ fontWeight: "500" }}
                 >
                   Growth at Credshields
                 </a>{" "}
-                — 2022 to 2023
+                — jan 2022 to aug 2023
                 <br />
-                Leading web3 security company doing smart contract auditing.{" "}
+                led growth & partnerships, managed socials, ran online & offline events.
               </Text>
 
               <Text>
                 <a
-                  className=""
-                  href=""
+                  href="https://www.ratnakar.xyz/resume"
                   target="_blank"
                   rel="noreferrer"
                   style={{ fontWeight: "500" }}
                 >
                   Founder at Protocol X
                 </a>{" "}
-                — 2018 to 2022
+                — jan 2018 to jan 2022
                 <br />
-                My first startup, an all-in-one agency that provided end-to-end solutions for startups, covering everything from technical support to growth through targeted marketing strategies. We specialized in helping early-stage companies build and scale their tech infrastructure while driving their growth through innovative marketing efforts.{" "}
+                built an all-in-one agency offering tech + growth solutions for early
+                stage startups. helped companies build infra & scale through marketing.
               </Text>
 
               <Text>
-                <a
-                  className=""
-                  href=""
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{ fontWeight: "500" }}
-                >
-                  Community Moderator at Gurugram Police
-                </a>{" "}
-                — 2021 to 2021
+                <span style={{ fontWeight: "500" }}>
+                  Security Researcher at Gurugram Police
+                </span>{" "}
+                — jun 2020 to oct 2020
                 <br />
-                Managed the community for Gurugram Police&rsquo;s annual cyber security summer internship.{" "}
+                cyber security internship under indian law enforcement. research &
+                analysis on online crimes against women & children. built a url
+                legitimacy detector.
               </Text>
 
               <Text>
-                <a
-                  className=""
-                  href=""
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{ fontWeight: "500" }}
-                >
-                  Security Researcher at Rakshit Tandon - Hackdev Technology Pvt. Ltd
-                </a>{" "}
-                — 2020 to 2020
+                <span style={{ fontWeight: "500" }}>Android Developer at Accelvis</span>{" "}
+                — 2018
                 <br />
-                Worked under Rakshit Tandon, India&rsquo;s one of the most well known person in Cyber Security &amp; Safety for Research and Analysis on various online crimes against Women and Children in neighbouring countries.{" "}
+                android developer at accelvis.
               </Text>
 
-              <Text>
-                <a
-                  className=""
-                  href=""
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{ fontWeight: "500" }}
-                >
-                  Cyber Security Intern at Gurugram Police
-                </a>{" "}
-                — 2020 to 2020
-                <br />
-                Cyber Security Summer Intern under Gurugram Police, Indian LEA.{" "}
-              </Text>
-
-              <Text>
-                <a
-                  className=""
-                  href=""
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{ fontWeight: "500" }}
-                >
-                  Android Developer at Accelvis
-                </a>{" "}
-                — 2018 to 2018
-                <br />
-                Android Developer at Accelvis{" "}
-              </Text>
             </Flex>
           </Flex>
         </Flex>

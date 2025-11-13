@@ -59,7 +59,7 @@ export default function Home() {
             >
 
               <Text>
-                🛠️{" "}
+                {" "}
                 <a
                   className={"project"}
                   href={"https://playdigits.fun/"}
@@ -73,7 +73,7 @@ export default function Home() {
               </Text>
 
               <Text>
-                🛠️{" "}
+                {" "}
                 <a
                   className={"project"}
                   href={"https://shorturl.at/iuM05"}
@@ -220,7 +220,7 @@ export default function Home() {
                 - Ebook, sold 150+ copies online.
               </Text>
               <Text>
-                🛠️{" "}
+                {" "}
                 <a
                 className={"project"}
                 href={"#"}

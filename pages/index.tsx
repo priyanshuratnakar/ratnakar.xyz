@@ -50,12 +50,11 @@ export default function Home() {
                   style={{ color: "#005B99" }}>Priyanshu Ratnakar</a> and welcome to my little corner on the Internet.
               </Text>
               <Text>
-                Some titles I associate with - founder, author, researcher, speaker and batman.
+                i build things, break things, and learn in public. over the years i have worn many hats — founder, writer, researcher, speaker, filmmaker. still figuring out which one fits best, but maybe i am just a modern-day polymath.
               </Text>
 
               <Text>
-              Exploring computers from the age of 12, I delved into the world of technology through MS DoS, igniting my passion for the command line. 
-              As I explored various tech stacks, I became enamored with the idea of using technology to solve global challenges.
+                my journey with tech started at 12, in cyber cafés and on a borrowed pc that changed everything. since then, i have gone from freelancing in my bedroom to running my own agency, working with law enforcement, and building across the web3 ecosystem.
               </Text>
 
               <Text> 

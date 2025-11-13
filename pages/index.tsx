@@ -50,7 +50,7 @@ export default function Home() {
                   style={{ color: "#005B99" }}>Priyanshu Ratnakar</a> and welcome to my little corner on the Internet.
               </Text>
               <Text>
-                i build things, break things, and learn in public. over the years i have worn many hats — founder, writer, researcher, speaker, filmmaker. still figuring out which one fits best, but maybe i am just a modern-day polymath.
+                over the years i have worn many hats — founder, writer, researcher, speaker, filmmaker. still figuring out which one fits best [modern day polymath?]
               </Text>
 
               <Text>

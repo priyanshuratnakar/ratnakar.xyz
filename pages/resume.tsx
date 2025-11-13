@@ -71,13 +71,13 @@ export default function Home() {
                 — mar 2025 to oct 2025
                 <br />
                 Led day-to-day operations, project and client management. worked on
-                Emerge, Propaganda, Haberdashery, Atlas, ANiMA and more.
+                <a href="https://www.tryemerge.xyz/">Emerge,</a> <a href="https://propaganda.now/">Propaganda</a>, Haberdashery, Atlas, ANiMA and more.
               </Text>
 
               <Text>
                 <a
                   className={"project"}
-                  href={"https://google.com"}
+                  href={"https://playdigits.fun/"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
@@ -87,29 +87,26 @@ export default function Home() {
                 — 2025
                 <br />
                 built a farcaster-native fun maths mini app on base. led growth and
-                marketing from 0 to 1. ran multiple video campaigns. 500k+ peak mkt cap,
+                marketing from 0-1. ran multiple video campaigns. 500k+ peak mkt cap,
                 10k+ games, 3k+ users and won a base builder grant.
               </Text>
 
               <Text>
                 <a
                   className={"project"}
-                  href={"https://google.com"}
-                  target={"_blank"}
-                  rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
                 >
                   Independent Agent
                 </a>{" "}
                 — sep 2024 to feb 2025
                 <br />
-                consulted projects like metadao, baseapp, gasyard, bitmor on growth.
+                consulted projects like metadao, baseapp, gasyard, bitmor and more.
               </Text>
 
               <Text>
                 <a
                   className={"project"}
-                  href={"https://google.com"}
+                  href={"https://x.com/callusfbi"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
@@ -126,7 +123,7 @@ export default function Home() {
               <Text>
                 <a
                   className={"project"}
-                  href={"https://google.com"}
+                  href={"https://questbook.app/"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
@@ -142,9 +139,6 @@ export default function Home() {
               <Text>
                 <a
                   className={"project"}
-                  href={"https://google.com"}
-                  target={"_blank"}
-                  rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
                 >
                   Freelance
@@ -158,7 +152,7 @@ export default function Home() {
               <Text>
                 <a
                   className={"project"}
-                  href={"https://google.com"}
+                  href={"https://solidityscan.com/"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
@@ -175,7 +169,7 @@ export default function Home() {
               <Text>
                 <a
                   className={"project"}
-                  href={"https://google.com"}
+                  href={"https://credshields.com/"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
@@ -191,9 +185,6 @@ export default function Home() {
               <Text>
                 <a
                   className={"project"}
-                  href={"https://google.com"}
-                  target={"_blank"}
-                  rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
                 >
                   Founder at Protocol X
@@ -207,9 +198,6 @@ export default function Home() {
               <Text>
                 <a
                   className={"project"}
-                  href={"https://google.com"}
-                  target={"_blank"}
-                  rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
                 >
                   Security Researcher at Gurugram Police
@@ -224,9 +212,6 @@ export default function Home() {
               <Text>
                 <a
                   className={"project"}
-                  href={"https://google.com"}
-                  target={"_blank"}
-                  rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
                 >
                   Android Developer at Accelvis

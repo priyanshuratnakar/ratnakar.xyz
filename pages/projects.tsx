@@ -57,6 +57,21 @@ export default function Home() {
               fontWeight={"normal"}
               opacity={"95%"}
             >
+
+              <Text>
+                🛠️{" "}
+                <a
+                  className={"project"}
+                  href={"https://playdigits.fun/"}
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  style={{ fontWeight: "500" }}
+                >
+                  digits
+                </a>{" "}
+                — a farcaster native fun maths mini app. built on top of base{" "}
+              </Text>
+
               <Text>
                 🛠️{" "}
                 <a

@@ -70,7 +70,7 @@ export default function Home() {
                 </a>{" "}
                 — mar 2025 to oct 2025
                 <br />
-                Led day-to-day operations, project and client management. worked on
+                Led day-to-day operations, project and client management. worked on projects like 
                 <a href="https://www.tryemerge.xyz/">Emerge,</a> <a href="https://propaganda.now/">Propaganda</a>, Haberdashery, Atlas, ANiMA and more.
               </Text>
 

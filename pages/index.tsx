@@ -50,11 +50,11 @@ export default function Home() {
                   style={{ color: "#005B99" }}>Priyanshu Ratnakar</a> and welcome to my little corner on the Internet.
               </Text>
               <Text>
-                over the years i have worn many hats — founder, writer, researcher, speaker, filmmaker. still figuring out which one fits best [modern day polymath?]
+                over the years i have worn many hats — founder, writer, researcher, speaker, filmmaker. still figuring out which one fits best.
               </Text>
 
               <Text>
-                my journey with tech started at 12, in cyber cafés and on a borrowed pc that changed everything. since then, i have gone from freelancing in my bedroom to running my own agency, working with law enforcement, and building across the web3 ecosystem.
+                my journey with tech started at 12, in cyber cafés and on a borrowed pc that changed everything. since then, i have gone from freelancing in my bedroom to running my own agency, working with law enforcement, and building in the web3.
               </Text>
 
               <Text> 

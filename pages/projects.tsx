@@ -41,10 +41,9 @@ export default function Home() {
               fontWeight={"500"}
               opacity={"100%"}>
                 Projects 
-              </Text> 
-              <Text opacity={"75%"}>crafting wonders and bringing ideas to life with a touch of creativity and magic.🪄 <br></br>
+              </Text>
               as alan kay once said, &ldquo;The best way to predict the future is to invent it.&ldquo;
-              So, here is my digital playground. Buiding the future with one project at a time, mostly for fun.</Text>
+              So, here is my digital playground. Buiding the future with one project at a time, mostly for fun.
             </Flex>
             <Divider borderColor={"black"} />
           </Flex>

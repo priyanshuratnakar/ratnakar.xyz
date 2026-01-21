@@ -51,11 +51,11 @@ export default function EF() {
                 fontWeight={"600"}
                 fontSize={"24px"}
               >
-                hi, i'm priyanshu ratnakar
+                hi, i&apos;m priyanshu ratnakar
               </Text>
               <Text>
-                i don't like boxing myself into keywords, but if i had to
-                describe my journey—i've always been a builder at heart, a
+                i don&apos;t like boxing myself into keywords, but if i had to
+                describe my journey—i&apos;ve always been a builder at heart, a
                 founder-first person who thrives on solving problems and
                 creating things that matter.
               </Text>
@@ -200,7 +200,7 @@ export default function EF() {
             >
               <Flex flexDir={"column"} gap={"8px"}>
                 <Text fontWeight={"500"} fontSize={"16px"}>
-                  founder's office at base india (formerly fbi)
+                  founder&apos;s office at base india (formerly fbi)
                 </Text>
                 <Text fontSize={"14px"} opacity={"80%"} fontStyle={"italic"}>
                   mar 2024 to aug 2024

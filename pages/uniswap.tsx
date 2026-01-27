@@ -1,5 +1,6 @@
 import { Flex, Text, Divider, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Uniswap() {
   return (
@@ -177,12 +178,9 @@ export default function Uniswap() {
               </Flex>
             </Flex>
             <Text fontSize={"15px"} lineHeight={"26px"} opacity={"95%"}>
-              <a
-                href="/work"
-                style={{ color: "#005B99" }}
-              >
+              <Link href="/work" style={{ color: "#005B99" }}>
                 resume
-              </a>
+              </Link>
             </Text>
           </Flex>
 

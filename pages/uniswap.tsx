@@ -57,7 +57,7 @@ export default function Uniswap() {
                 gm, i&apos;m priyanshu ratnakar
               </Text>
               <Text fontSize={"16px"} opacity={"90%"}>
-                bangalore | storyteller | community builder
+                📍bangalore | storyteller + community builder
               </Text>
             </Flex>
           </Flex>

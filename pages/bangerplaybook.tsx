@@ -1,8 +1,25 @@
 import { Flex, Text, Divider, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import Head from "next/head";
 
-export default function HowtoBanger() {
+const SITE_URL = "https://www.priyanshuratnakar.com";
+
+export default function BangerPlaybook() {
   return (
+    <>
+      <Head>
+        <title>how to write banger tweets | ratnakar</title>
+        <meta name="description" content="everything i know about virality — the hook, narrative, viral emotions, and distribution. bangers are engineered, not accidental." />
+        <meta property="og:title" content="how to write banger tweets" />
+        <meta property="og:description" content="everything i know about virality — the hook, narrative, viral emotions, and distribution. bangers are engineered, not accidental." />
+        <meta property="og:image" content={`${SITE_URL}/banger-tweets.png`} />
+        <meta property="og:url" content={`${SITE_URL}/bangerplaybook`} />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="how to write banger tweets" />
+        <meta name="twitter:description" content="everything i know about virality — the hook, narrative, viral emotions, and distribution." />
+        <meta name="twitter:image" content={`${SITE_URL}/banger-tweets.png`} />
+      </Head>
     <Flex
       flexDir={"column"}
       minH={"100vh"}
@@ -27,7 +44,7 @@ export default function HowtoBanger() {
         >
           {/* Cover Image */}
           <Image
-              src={"banger-tweets.png"}
+              src={"/banger-tweets.png"}
               alt={"hero"}
               h={["130px", "130px", "196px"]}
               borderRadius={"7px"}
@@ -716,5 +733,6 @@ export default function HowtoBanger() {
         </Flex>
       </motion.div>
     </Flex>
+    </>
   );
 }

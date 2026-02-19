@@ -58,7 +58,7 @@ export default function Home() {
               <Text>
                 <a 
                   className={"project"}
-                  href={"reads/bookshelf"}
+                  href={"/reads/bookshelf"}
                   style={{fontWeight: "500" }}>
                   bookshelf
                 </a>
@@ -66,7 +66,7 @@ export default function Home() {
               <Text>
                 <a 
                   className={"project"}
-                  href={"reads/reading-list"}
+                  href={"/reads/reading-list"}
                   style={{fontWeight: "500" }}>
                   reading list
                 </a>
@@ -74,7 +74,7 @@ export default function Home() {
               <Text>
                 <a 
                   className={"project"}
-                  href={"reads/resources"}
+                  href={"/reads/resources"}
                   style={{fontWeight: "500" }}>
                   resources
                 </a>

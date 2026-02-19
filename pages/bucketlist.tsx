@@ -60,11 +60,11 @@ export default function Home() {
               <Text>
                 1. publish a bestseller book <br></br>
                 2. have my own personal library  <br></br>
-                3. read 1000 great books (<a className={"project"} href={"./reads/bookshelf.tsx"} style={{ color: "#21822A", fontWeight: "500" }}>2% done</a>)<br></br>
+                3. read 1000 great books (<a className={"project"} href={"/reads/bookshelf"} style={{ color: "#21822A", fontWeight: "500" }}>2% done</a>)<br></br>
                 4. India tour <a style={{ color: "#21822A", fontWeight: "500" }}>(25% done)</a><br></br>
                 5. start my own company <br></br>
                 6. publish a research paper <br></br>
-                7. 100+ talks/sessions (<a className={"project"} href={"wall-of-wins.tsx"} style={{ color: "#21822A", fontWeight: "500" }}>22% done</a>)<br></br>
+                7. 100+ talks/sessions (<a className={"project"} href={"/wall-of-wins"} style={{ color: "#21822A", fontWeight: "500" }}>22% done</a>)<br></br>
                 8. fly a plane <br></br>
                 9. skydiving <br></br>
                 10. scubadiving <br></br>
@@ -79,7 +79,7 @@ export default function Home() {
                 19. build a lean physique <br></br>
                 20. hot-air ballon ride <br></br>
                 21. take my family on a foreign trip<br></br>
-                22. <a className={"project"} href={"./blogs/i-gifted-my-father-his-dream-bike"} style={{ color: "#21822A", fontWeight: "500" }}>gift my father his dream bike</a> <br></br>
+                22. <a className={"project"} href={"/blogs/i-gifted-my-father-his-dream-bike"} style={{ color: "#21822A", fontWeight: "500" }}>gift my father his dream bike</a> <br></br>
                 23. see the northern lights<br></br>
                 24. do a movie (cameo works, actually been in a music video before xD) <br></br>
                 25. get my own house<br></br>

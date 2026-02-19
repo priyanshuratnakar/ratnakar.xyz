@@ -1,9 +1,26 @@
 import { Flex, Text, Divider, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import Head from "next/head";
 import SignUpFormReact from "../newsletter";
+
+const SITE_URL = "https://www.priyanshuratnakar.com";
+const OG_IMAGE = "https://i.postimg.cc/qvXvrg2P/Chat-GPT-Image-Apr-15-2025-06-23-49-PM.png";
 
 export default function GamingThesis() {
   return (
+    <>
+      <Head>
+        <title>The Indian Gaming Thesis: Why Now is the Time | ratnakar</title>
+        <meta name="description" content="Project 11A, Black Myth Wukong, and the playbook India hasn't seen much of before. Why now is the time for Indian gaming." />
+        <meta property="og:title" content="The Indian Gaming Thesis: Why Now is the Time" />
+        <meta property="og:description" content="Project 11A, Black Myth Wukong, and the playbook India hasn't seen much of before." />
+        <meta property="og:image" content={OG_IMAGE} />
+        <meta property="og:url" content={`${SITE_URL}/blogs/the-indian-gaming-thesis`} />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="The Indian Gaming Thesis: Why Now is the Time" />
+        <meta name="twitter:image" content={OG_IMAGE} />
+      </Head>
     <Flex
       flexDir={"column"}
       minH={"100vh"}
@@ -237,5 +254,6 @@ export default function GamingThesis() {
         </Flex>
       </motion.div>
     </Flex>
+    </>
   );
 }

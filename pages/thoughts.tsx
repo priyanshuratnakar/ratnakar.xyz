@@ -68,6 +68,14 @@ export default function Home() {
               <Text>
                 <a 
                   className={"project"}
+                  href={"bangerplaybook"}
+                  style={{ color: "#005B99", fontWeight: "500" }}>
+                  how to write banger tweets
+                </a>
+              </Text>
+              <Text>
+                <a 
+                  className={"project"}
                   href={"blogs/the-indian-gaming-thesis"}
                   target={"_blank"}
                   rel={"noreferrer"}

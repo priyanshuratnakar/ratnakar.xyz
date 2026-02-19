@@ -1,5 +1,6 @@
 import { Flex, Text, Divider, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -45,9 +46,9 @@ export default function Home() {
                 <strong>Hello world 👋 </strong>
               </Text>
               <Text>
-              I&apos;m <a 
+              I&apos;m <Link 
                   href={"/about"}
-                  style={{ color: "#005B99" }}>Priyanshu Ratnakar</a> and welcome to my little corner on the Internet.
+                  style={{ color: "#005B99" }}>Priyanshu Ratnakar</Link> and welcome to my little corner on the Internet.
               </Text>
               <Text>
                 over the years i have worn many hats — founder, writer, researcher, speaker, filmmaker. still figuring out which one fits best.
@@ -74,9 +75,9 @@ export default function Home() {
               fontWeight={"500"}
               opacity={"100%"}
             >
-              <a
+              <Link
               href="/projects"
-              >Projects</a>
+              >Projects</Link>
             </Text>
             <Flex
               flexDir={"column"}
@@ -143,9 +144,9 @@ export default function Home() {
               fontWeight={"500"}
               opacity={"100%"}
             >
-              <a href="/reads"> 
+              <Link href="/reads"> 
                 Reads
-              </a>
+              </Link>
             </Text>
             <Flex
               flexDir={"column"}
@@ -203,9 +204,9 @@ export default function Home() {
               fontWeight={"500"}
               opacity={"100%"}
             >
-              <a
+              <Link
               href="/thoughts"
-              >Thoughts</a>
+              >Thoughts</Link>
             </Text>
             <Flex
               flexDir={"column"}
@@ -255,10 +256,10 @@ export default function Home() {
             <Divider borderColor={"black"} />
             {/* footer */}
             <Text>
-              <a href="/">home </a> /
-              <a href="/about"> about </a>  /
-              <a href="/bucketlist"> bucketlist </a> /
-              <a href="/wall-of-wins"> wall of wins </a> /
+              <Link href="/">home </Link> /
+              <Link href="/about"> about </Link>  /
+              <Link href="/bucketlist"> bucketlist </Link> /
+              <Link href="/wall-of-wins"> wall of wins </Link> /
               <a href="https://www.buymeacoffee.com/priyanshuratnakar" target={"_blank"} rel="noreferrer"> support </a>
             </Text>
 

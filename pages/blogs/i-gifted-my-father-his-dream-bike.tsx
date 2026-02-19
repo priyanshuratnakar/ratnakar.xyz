@@ -1,8 +1,25 @@
 import { Flex, Text, Divider, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import Head from "next/head";
 import SignUpFormReact from "../newsletter";
+
+const SITE_URL = "https://www.priyanshuratnakar.com";
+
 export default function Home() {
   return (
+    <>
+      <Head>
+        <title>I gifted my father his dream bike | ratnakar</title>
+        <meta name="description" content="A story about buying my dad his dream bike and the happiness that matters more than any financial decision." />
+        <meta property="og:title" content="I gifted my father his dream bike" />
+        <meta property="og:description" content="A story about buying my dad his dream bike and the happiness that matters more than any financial decision." />
+        <meta property="og:image" content={`${SITE_URL}/blogs/vespa.jpg`} />
+        <meta property="og:url" content={`${SITE_URL}/blogs/i-gifted-my-father-his-dream-bike`} />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="I gifted my father his dream bike" />
+        <meta name="twitter:image" content={`${SITE_URL}/blogs/vespa.jpg`} />
+      </Head>
     <Flex
       flexDir={"column"}
       minH={"100vh"}
@@ -51,7 +68,7 @@ export default function Home() {
               </Text>
               <Flex flexDir={"column"} gap={"30px"}>
                 <Image
-                  src={"../blogs/vespa.jpg"}
+                  src={"/blogs/vespa.jpg"}
                   borderRadius={"7px"}
                   objectFit={"cover"}
                   alt="Priyanshu on LML Vespa"
@@ -133,5 +150,6 @@ export default function Home() {
         </Flex>
       </motion.div>
     </Flex>
+    </>
   );
 }

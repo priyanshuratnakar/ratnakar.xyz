@@ -58,7 +58,7 @@ export default function Home() {
               {/* <Text>
                 <a 
                   className={"project"}
-                  href={"blogs/that-undelivered-letter"}
+                  href={"/blogs/that-undelivered-letter"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ color: "#005B99", fontWeight: "500" }}>
@@ -68,7 +68,7 @@ export default function Home() {
               <Text>
                 <a 
                   className={"project"}
-                  href={"bangerplaybook"}
+                  href={"/bangerplaybook"}
                   style={{ color: "#005B99", fontWeight: "500" }}>
                   how to write banger tweets
                 </a>
@@ -76,7 +76,7 @@ export default function Home() {
               <Text>
                 <a 
                   className={"project"}
-                  href={"blogs/the-indian-gaming-thesis"}
+                  href={"/blogs/the-indian-gaming-thesis"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ color: "#005B99", fontWeight: "500" }}>
@@ -86,7 +86,7 @@ export default function Home() {
               <Text>
                 <a 
                   className={"project"}
-                  href={"blogs/i-gifted-my-father-his-dream-bike"}
+                  href={"/blogs/i-gifted-my-father-his-dream-bike"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ color: "#005B99", fontWeight: "500" }}>

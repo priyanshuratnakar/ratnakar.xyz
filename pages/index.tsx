@@ -46,7 +46,7 @@ export default function Home() {
               </Text>
               <Text>
               I&apos;m <a 
-                  href={"about"}
+                  href={"/about"}
                   style={{ color: "#005B99" }}>Priyanshu Ratnakar</a> and welcome to my little corner on the Internet.
               </Text>
               <Text>
@@ -75,7 +75,7 @@ export default function Home() {
               opacity={"100%"}
             >
               <a
-              href="projects"
+              href="/projects"
               >Projects</a>
             </Text>
             <Flex
@@ -143,7 +143,7 @@ export default function Home() {
               fontWeight={"500"}
               opacity={"100%"}
             >
-              <a href="reads"> 
+              <a href="/reads"> 
                 Reads
               </a>
             </Text>
@@ -204,7 +204,7 @@ export default function Home() {
               opacity={"100%"}
             >
               <a
-              href="thoughts"
+              href="/thoughts"
               >Thoughts</a>
             </Text>
             <Flex
@@ -219,7 +219,7 @@ export default function Home() {
                 ✍️{" "}
                 <a
                   className={"project"}
-                  href={"blogs/that-undelivered-letter"}
+                  href={"/blogs/that-undelivered-letter"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
@@ -230,7 +230,7 @@ export default function Home() {
               <Text>
               <a
                   className={"project"}
-                  href={"blogs/i-gifted-my-father-his-dream-bike"}
+                  href={"/blogs/i-gifted-my-father-his-dream-bike"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
@@ -242,7 +242,7 @@ export default function Home() {
                 {" "}
                 <a
                   className={"project"}
-                  href={"blogs/the-indian-gaming-thesis"}
+                  href={"/blogs/the-indian-gaming-thesis"}
                   target={"_blank"}
                   rel={"noreferrer"}
                   style={{ fontWeight: "500" }}
@@ -255,10 +255,10 @@ export default function Home() {
             <Divider borderColor={"black"} />
             {/* footer */}
             <Text>
-              <a href="index">home </a> /
-              <a href="about"> about </a>  /
-              <a href="bucketlist"> bucketlist </a> /
-              <a href="wall-of-wins"> wall of wins </a> /
+              <a href="/">home </a> /
+              <a href="/about"> about </a>  /
+              <a href="/bucketlist"> bucketlist </a> /
+              <a href="/wall-of-wins"> wall of wins </a> /
               <a href="https://www.buymeacoffee.com/priyanshuratnakar" target={"_blank"} rel="noreferrer"> support </a>
             </Text>
 

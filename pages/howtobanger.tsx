@@ -26,16 +26,13 @@ export default function HowtoBanger() {
           flexDir={"column"}
         >
           {/* Cover Image */}
-          <Flex w={"100%"} justify={"center"}>
-            <Image
-              src={"/cover-howtobanger.png"}
-              alt={"banger tweets playbook"}
-              borderRadius={"12px"}
-              w={"100%"}
-              maxW={"100%"}
+          <Image
+              src={"banger-tweets.png"}
+              alt={"hero"}
+              h={["130px", "130px", "196px"]}
+              borderRadius={"7px"}
               objectFit={"cover"}
             />
-          </Flex>
 
           {/* Header */}
           <Flex flexDir={"column"} gap={"16px"}>
@@ -50,15 +47,46 @@ export default function HowtoBanger() {
             <Text
               fontSize={["13px", "13px", "14px"]}
               opacity={"60%"}
-              fontStyle={"italic"}
             >
-              the complete playbook — hooks, narrative, viral emotions
+              last updated 19th feb 2026
             </Text>
           </Flex>
 
           <Divider borderColor={"black"} />
 
-          {/* Intro */}
+          {/* Personal Intro */}
+          <Flex
+            flexDir={"column"}
+            gap={"20px"}
+            fontSize={["14px", "14px", "16px"]}
+            lineHeight={"28px"}
+            fontWeight={"normal"}
+            opacity={"95%"}
+          >
+            <Text>
+              i&apos;ve been writing on x for a while now.
+            </Text>
+            <Text>
+              last month, one of my articles was{" "}
+              <span style={{ fontWeight: "500" }}>
+                #3 most read in the world.
+              </span>{" "}
+              and i&apos;ve written content for at least one of your favt. x
+              profiles. you&apos;ve probably read something i wrote without
+              knowing it was me.
+            </Text>
+            <Text>
+              i&apos;ve spent years studying what makes content spread. and
+              i&apos;ve figured out that virality isn&apos;t luck — it&apos;s
+              an engineering problem. every banger follows the same formula, and
+              once you see it, you can&apos;t unsee it.
+            </Text>
+            <Text>this is everything i know.</Text>
+          </Flex>
+
+          <Divider borderColor={"black"} />
+
+          {/* The Formula */}
           <Flex
             flexDir={"column"}
             gap={"20px"}
@@ -76,7 +104,19 @@ export default function HowtoBanger() {
               you&apos;re not fighting the algorithm. you&apos;re working with
               it.
             </Text>
-            <Text>every viral thread follows the same formula:</Text>
+            <Text>every viral tweet follows the same formula:</Text>
+
+            {/* Formula image */}
+            <Flex w={"100%"} justify={"center"} mt={"4px"}>
+              <Image
+                src={"/banger-formula.png"}
+                alt={"banger formula — hook + narrative + emotion"}
+                borderRadius={"7px"}
+                w={"100%"}
+                objectFit={"cover"}
+              />
+            </Flex>
+
             <Flex
               bg={"#F0EDE8"}
               borderRadius={"8px"}
@@ -85,12 +125,8 @@ export default function HowtoBanger() {
               gap={"4px"}
             >
               <Text fontWeight={"500"} fontSize={["14px", "14px", "15px"]}>
-                scroll-stopping hook + engaging narrative + viral emotion =
-                banger
-              </Text>
-              <Text fontSize={"13px"} opacity={"60%"}>
-                nail all three and you have something people can&apos;t scroll
-                past
+              nail all three and you have something people can&apos;t scroll
+              past
               </Text>
             </Flex>
           </Flex>
@@ -100,7 +136,12 @@ export default function HowtoBanger() {
           {/* Part 1: The Hook */}
           <Flex gap={"30px"} flexDir={"column"}>
             <Flex flexDir={"column"} gap={"6px"}>
-              <Text fontSize={"12px"} opacity={"45%"} fontWeight={"500"} letterSpacing={"0.08em"}>
+              <Text
+                fontSize={"12px"}
+                opacity={"45%"}
+                fontWeight={"500"}
+                letterSpacing={"0.08em"}
+              >
                 01
               </Text>
               <Text
@@ -119,6 +160,23 @@ export default function HowtoBanger() {
               fontWeight={"normal"}
               opacity={"95%"}
             >
+              {/* Heatmap explanation */}
+              <Text>
+                here&apos;s how someone actually scrolls through their x feed.
+                eye-tracking heatmaps show the same pattern every time —{" "}
+                <span style={{ fontWeight: "500" }}>
+                  they see the image first.
+                </span>{" "}
+                then their eyes move to the hook text. if the hook is
+                interesting, they open it. if not, they keep scrolling — in
+                under half a second.
+              </Text>
+              <Text>
+                the image and the hook are a single unit. they work together to
+                stop the scroll. get both right, and the rest of the thread
+                almost doesn&apos;t matter.
+              </Text>
+
               <Text>
                 same exact content with a better hook took one thread from{" "}
                 <span style={{ fontWeight: "500" }}>
@@ -138,11 +196,11 @@ export default function HowtoBanger() {
                     leverage authority & credibility
                   </Text>
                   <Text fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
-                    don&apos;t say &ldquo;a negotiation tactic you can use.&rdquo;
-                    say &ldquo;steve jobs used this $1 trick to sell 40 million
-                    ipads.&rdquo; you&apos;re borrowing the weight of a known
-                    name to make a common concept sound like a game-changing
-                    secret. that thread got 3,500 rts in 48 hours.
+                    don&apos;t say &ldquo;a negotiation tactic you can
+                    use.&rdquo; say &ldquo;steve jobs used this $1 trick to
+                    sell 40 million ipads.&rdquo; you&apos;re borrowing the
+                    weight of a known name to make a common concept sound like a
+                    game-changing secret. that thread got 3,500 rts in 48 hours.
                   </Text>
                 </Flex>
 
@@ -151,10 +209,10 @@ export default function HowtoBanger() {
                     use specific numbers & bold claims
                   </Text>
                   <Text fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
-                    &ldquo;20 cool concepts i learnt as a founder&rdquo; is lazy.
-                    &ldquo;18 startup mental models that helped me sell my startup
-                    to a $50B company&rdquo; is killer. odd specific numbers feel
-                    real. round numbers feel made up.
+                    &ldquo;20 cool concepts i learnt as a founder&rdquo; is
+                    lazy. &ldquo;18 startup mental models that helped me sell my
+                    startup to a $50B company&rdquo; is killer. odd specific
+                    numbers feel real. round numbers feel made up.
                   </Text>
                 </Flex>
 
@@ -163,10 +221,10 @@ export default function HowtoBanger() {
                     promise personal stakes
                   </Text>
                   <Text fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
-                    &ldquo;here&apos;s what it means for YOUR health&rdquo; turns
-                    a random fact into something the reader cares about personally.
-                    make them the protagonist. when the stakes feel personal,
-                    clicking becomes involuntary.
+                    &ldquo;here&apos;s what it means for YOUR health&rdquo;
+                    turns a random fact into something the reader cares about
+                    personally. make them the protagonist. when the stakes feel
+                    personal, clicking becomes involuntary.
                   </Text>
                 </Flex>
 
@@ -184,13 +242,28 @@ export default function HowtoBanger() {
 
                 <Flex flexDir={"column"} gap={"8px"}>
                   <Text fontWeight={"500"} fontSize={"16px"}>
-                    add a visual or thumbnail
+                    make your image do the work
                   </Text>
                   <Text fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
-                    images are processed faster than text. a striking thumbnail
-                    stops the scroll before your words even register. one
-                    well-chosen image can drive nearly{" "}
+                    images are processed faster than text — the heatmap
+                    doesn&apos;t lie. a striking thumbnail stops the scroll
+                    before your words even register. one well-chosen image can
+                    drive nearly{" "}
                     <span style={{ fontWeight: "500" }}>5x the average CTR.</span>
+                  </Text>
+                  <Text fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
+                    i was writing a thread on amazon&apos;s shareholder letter.
+                    instead of using a screenshot of the letter or a photo of
+                    jeff bezos, i got the entire letter printed out. spread the
+                    pages on a table. highlighted a few lines with a marker.
+                    took a photo of it and posted that as my cover image.
+                  </Text>
+                  <Text fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
+                    people stopped scrolling because it looked real and
+                    physical. you could feel the weight of it. they saw the
+                    image first, then read the hook. that combination is
+                    unstoppable. don&apos;t just find an image — create one
+                    that&apos;s impossible to ignore.
                   </Text>
                 </Flex>
               </Flex>
@@ -219,7 +292,12 @@ export default function HowtoBanger() {
           {/* Part 2: The Narrative */}
           <Flex gap={"30px"} flexDir={"column"}>
             <Flex flexDir={"column"} gap={"6px"}>
-              <Text fontSize={"12px"} opacity={"45%"} fontWeight={"500"} letterSpacing={"0.08em"}>
+              <Text
+                fontSize={"12px"}
+                opacity={"45%"}
+                fontWeight={"500"}
+                letterSpacing={"0.08em"}
+              >
                 02
               </Text>
               <Text
@@ -252,8 +330,9 @@ export default function HowtoBanger() {
                   </Text>
                   <Text fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
                     someone posted a plain list of useful startup tools — 23
-                    retweets. same tools reframed as &ldquo;how to kickstart your
-                    startup in 15 days&rdquo; with a step-by-step breakdown got{" "}
+                    retweets. same tools reframed as &ldquo;how to kickstart
+                    your startup in 15 days&rdquo; with a step-by-step
+                    breakdown got{" "}
                     <span style={{ fontWeight: "500" }}>
                       1,800 rts and 8,200 likes in 24 hours.
                     </span>{" "}
@@ -322,7 +401,12 @@ export default function HowtoBanger() {
           {/* Part 3: Viral Emotions */}
           <Flex gap={"30px"} flexDir={"column"}>
             <Flex flexDir={"column"} gap={"6px"}>
-              <Text fontSize={"12px"} opacity={"45%"} fontWeight={"500"} letterSpacing={"0.08em"}>
+              <Text
+                fontSize={"12px"}
+                opacity={"45%"}
+                fontWeight={"500"}
+                letterSpacing={"0.08em"}
+              >
                 03
               </Text>
               <Text
@@ -347,9 +431,7 @@ export default function HowtoBanger() {
                 <span style={{ fontWeight: "500" }}>emotional act</span>, not a
                 rational one.
               </Text>
-              <Text>
-                every piece of viral content triggers one of these seven:
-              </Text>
+              <Text>every piece of viral content triggers one of these seven:</Text>
 
               <Flex flexDir={"column"} gap={"16px"} mt={"4px"}>
                 <Flex flexDir={"column"} gap={"4px"}>
@@ -357,8 +439,9 @@ export default function HowtoBanger() {
                     LOL
                   </Text>
                   <Text fontSize={"14px"} lineHeight={"26px"} opacity={"80%"}>
-                    &ldquo;this is hilarious, my friends need to see this.&rdquo;
-                    comedy and absurdity make people tag others instinctively.
+                    &ldquo;this is hilarious, my friends need to see
+                    this.&rdquo; comedy and absurdity make people tag others
+                    instinctively.
                   </Text>
                 </Flex>
 
@@ -370,7 +453,9 @@ export default function HowtoBanger() {
                     &ldquo;this is outrageous, unjust, or unbelievable.&rdquo;
                     righteous anger gets more retweets than almost anything.
                     same facts framed with anger can generate{" "}
-                    <span style={{ fontWeight: "500" }}>2.5x the impressions</span>{" "}
+                    <span style={{ fontWeight: "500" }}>
+                      2.5x the impressions
+                    </span>{" "}
                     of a comedy take.
                   </Text>
                 </Flex>
@@ -423,10 +508,10 @@ export default function HowtoBanger() {
                     FINALLY
                   </Text>
                   <Text fontSize={"14px"} lineHeight={"26px"} opacity={"80%"}>
-                    &ldquo;someone finally said what we&apos;re all thinking.&rdquo;
-                    when you articulate something people feel but have never put
-                    into words, they share it as validation. become the voice
-                    people were waiting for.
+                    &ldquo;someone finally said what we&apos;re all
+                    thinking.&rdquo; when you articulate something people feel
+                    but have never put into words, they share it as validation.
+                    become the voice people were waiting for.
                   </Text>
                 </Flex>
               </Flex>
@@ -456,7 +541,12 @@ export default function HowtoBanger() {
           {/* Part 4: Distribution */}
           <Flex gap={"30px"} flexDir={"column"}>
             <Flex flexDir={"column"} gap={"6px"}>
-              <Text fontSize={"12px"} opacity={"45%"} fontWeight={"500"} letterSpacing={"0.08em"}>
+              <Text
+                fontSize={"12px"}
+                opacity={"45%"}
+                fontWeight={"500"}
+                letterSpacing={"0.08em"}
+              >
                 04
               </Text>
               <Text
@@ -499,8 +589,8 @@ export default function HowtoBanger() {
                   <Text fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
                     before you post, identify the kind of account that would rt
                     this. policy folks amplify systemic critiques. tech folks
-                    amplify irony. VCs amplify hot takes. write for that profile.
-                    one rt from the right account changes everything.
+                    amplify irony. VCs amplify hot takes. write for that
+                    profile. one rt from the right account changes everything.
                   </Text>
                 </Flex>
 
@@ -510,9 +600,9 @@ export default function HowtoBanger() {
                   </Text>
                   <Text fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
                     &ldquo;i&apos;m tired of pretending...&rdquo; or
-                    &ldquo;nobody is talking about this...&rdquo; — these signal
-                    that a controversial truth is coming. they create a promise
-                    readers feel compelled to follow.
+                    &ldquo;nobody is talking about this...&rdquo; — these
+                    signal that a controversial truth is coming. they create a
+                    promise readers feel compelled to follow.
                   </Text>
                 </Flex>
               </Flex>
@@ -543,9 +633,9 @@ export default function HowtoBanger() {
                 whether 100 people see it or 10 million do.
               </Text>
               <Text>
-                a 4% improvement in click-through rate is the difference between
-                irrelevance and virality. treat every tweet like it deserves
-                that level of craft.
+                a 4% improvement in click-through rate is the difference
+                between irrelevance and virality. treat every tweet like it
+                deserves that level of craft.
               </Text>
 
               <Flex
@@ -561,17 +651,17 @@ export default function HowtoBanger() {
                 </Text>
                 <Flex flexDir={"column"} gap={"10px"}>
                   <Text fontSize={"14px"} lineHeight={"26px"} opacity={"85%"}>
-                    <span style={{ fontWeight: "500" }}>①</span>{" "}
-                    rewrite your hook 20 times. pick the one that makes YOU want
-                    to click.
+                    <span style={{ fontWeight: "500" }}>1.</span>{" "}
+                    rewrite your hook 20 times. pick the one that makes YOU
+                    want to click.
                   </Text>
                   <Text fontSize={"14px"} lineHeight={"26px"} opacity={"85%"}>
-                    <span style={{ fontWeight: "500" }}>②</span>{" "}
+                    <span style={{ fontWeight: "500" }}>2.</span>{" "}
                     outline the full thread as bullets. ask: &ldquo;would i
                     share this?&rdquo; reframe until yes.
                   </Text>
                   <Text fontSize={"14px"} lineHeight={"26px"} opacity={"85%"}>
-                    <span style={{ fontWeight: "500" }}>③</span>{" "}
+                    <span style={{ fontWeight: "500" }}>3.</span>{" "}
                     write the target emotion at the top of your page. write
                     every line to hit that emotion.
                   </Text>
@@ -582,7 +672,7 @@ export default function HowtoBanger() {
 
           <Divider borderColor={"black"} />
 
-          {/* Note on originality */}
+          {/* Closing */}
           <Flex gap={"20px"} flexDir={"column"}>
             <Flex
               flexDir={"column"}
@@ -592,9 +682,7 @@ export default function HowtoBanger() {
               fontWeight={"normal"}
               opacity={"95%"}
             >
-              <Text>
-                we think good content has to teach something new.
-              </Text>
+              <Text>we think good content has to teach something new.</Text>
               <Text>
                 most of the time, it just needs to remind us of what we already
                 know. we need reminders more than we need to be taught.
@@ -621,16 +709,7 @@ export default function HowtoBanger() {
                 target={"_blank"}
                 rel={"noreferrer"}
               >
-                @0xratnakar
-              </a>{" "}
-              /{" "}
-              <a
-                href="https://www.ratnakar.xyz"
-                style={{ color: "#005B99" }}
-                target={"_blank"}
-                rel={"noreferrer"}
-              >
-                ratnakar.xyz
+                priyanshu ratnakar
               </a>
             </Text>
           </Flex>

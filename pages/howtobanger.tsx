@@ -1,4 +1,4 @@
-import { Flex, Text, Divider } from "@chakra-ui/react";
+import { Flex, Text, Divider, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 export default function HowtoBanger() {
@@ -25,6 +25,18 @@ export default function HowtoBanger() {
           gap={"45px"}
           flexDir={"column"}
         >
+          {/* Cover Image */}
+          <Flex w={"100%"} justify={"center"}>
+            <Image
+              src={"/cover-howtobanger.png"}
+              alt={"banger tweets playbook"}
+              borderRadius={"12px"}
+              w={"100%"}
+              maxW={"100%"}
+              objectFit={"cover"}
+            />
+          </Flex>
+
           {/* Header */}
           <Flex flexDir={"column"} gap={"16px"}>
             <Text

@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Head from "next/head";
 
+const SITE_URL = "https://www.ratnakar.xyz";
+
 export default function Superteam() {
   return (
     <>
@@ -11,7 +13,10 @@ export default function Superteam() {
         <meta name="description" content="why priyanshu ratnakar for superteam" />
         <meta property="og:title" content="priyanshu × superteam" />
         <meta property="og:description" content="gm, i&apos;m priyanshu ratnakar — i&apos;ve already been doing this job, just not for superteam [yet]" />
+        <meta property="og:image" content={`${SITE_URL}/superteam-cover.png`} />
+        <meta property="og:url" content={`${SITE_URL}/superteam`} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content={`${SITE_URL}/superteam-cover.png`} />
       </Head>
       <Flex
         flexDir={"column"}

@@ -237,7 +237,7 @@ export default function Superteam() {
                 </Text>
               </Flex>
 
-              {/* Bridge diagram image */}
+              {/* Bridge diagram image. */}
               <Image
                 src={"/superteam-bridge.png"}
                 alt={"the bridge — TOFU / MOFU / BOFU"}

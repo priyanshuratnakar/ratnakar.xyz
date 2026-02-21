@@ -1,6 +1,5 @@
 import { Flex, Text, Divider, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import Head from "next/head";
 
 const SITE_URL = "https://www.ratnakar.xyz";
@@ -78,20 +77,6 @@ export default function Superteam() {
               >
                 i&apos;ve been playing onchain since my teens, built couple of side projects. grew india&apos;s multiple builder communities to thousands of members. ran ops @ multiple startups, shipped content that&apos;s crossed millions+ views and have written content for at least one of your fav. twt profile. i thrive in chaos, ship fast, and care deeply about the culture + community.
               </Text>
-              <Text fontSize={"15px"}>
-                <a
-                  href="https://twitter.com/0xratnakar"
-                  style={{ color: "#005B99" }}
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                >
-                  twitter
-                </a>{" "}
-                /{" "}
-                <Link href="/work" style={{ color: "#005B99" }}>
-                  work
-                </Link>
-              </Text>
             </Flex>
 
             <Divider borderColor={"black"} />
@@ -149,9 +134,14 @@ export default function Superteam() {
                 </Text>
                 <Text fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
                   built the playbooks that fbi/base india still uses today. ghostwritten for top 1% x accounts, high chances you&apos;ve read my content and never realised. know how to write for builders + the internet.{" "}
-                  <span style={{ fontWeight: "500" }}>
-                    my recent article hit #3 most read worldwide on x.
-                  </span>
+                  <a
+                    href="https://x.com/0xratnakar/articles"
+                    style={{ color: "#005B99" }}
+                    target={"_blank"}
+                    rel={"noreferrer"}
+                  >
+                    read articles →
+                  </a>{" "}
                 </Text>
               </Flex>
 
@@ -161,7 +151,16 @@ export default function Superteam() {
                   airtable, ops & operations
                 </Text>
                 <Text fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
-                  ran day-to-day ops, project and client management at almost all the places i&apos;ve worked at. had my own agency actually. grants? used to work at a grant management platform.
+                  ran day-to-day ops, project and client management at almost all the places i&apos;ve worked at. had my own agency actually. grants? used to work at a grant management platform —{" "}
+                  management platform.
+                  <a
+                    href="https://earn.superteam.fun"
+                    style={{ color: "#005B99" }}
+                    target={"_blank"}
+                    rel={"noreferrer"}
+                  >
+                    {" "} find work →
+                  </a>
                 </Text>
               </Flex>
 
@@ -208,17 +207,14 @@ export default function Superteam() {
                   >
                     ai & weekends
                   </a>{" "}
-                  — a fun weekend builder scene in bangalore. first meet:{" "}
+                  — a fun weekend builder collective in bangalore. first meet:{" "}
                   <span style={{ fontWeight: "500" }}>
                     20+ builders shipped 10+ ideas in hours.
                   </span>{" "}
-                  i know how to get people in a room and make magic happen.
+                  i know how to get people in a room and make them GTFO localhost.
                 </Text>
               </Flex>
 
-              <Text fontSize={"15px"} lineHeight={"26px"} opacity={"90%"} fontStyle={"italic"}>
-                i&apos;m 100% sure whatever&apos;s mentioned on the jd — that&apos;s tuesday for me.
-              </Text>
             </Flex>
 
             <Divider borderColor={"black"} />
@@ -234,7 +230,10 @@ export default function Superteam() {
               </Text>
               <Flex flexDir={"column"} gap={"16px"} fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
                 <Text>
-                  takeover whatever paarug got on his plate so he can focus on better and more important things. run experiments. revive old initiatives which died because of no help. retain + push builders to ship moar.
+                  takeover whatever paarug got on his plate so he can focus on better and more important things.
+                </Text>
+                <Text>
+                  run experiments. revive old initiatives which died because of no help. retain + push builders to ship moar.
                 </Text>
               </Flex>
 
@@ -254,7 +253,7 @@ export default function Superteam() {
               <Flex flexDir={"column"} gap={"16px"} fontSize={"15px"} lineHeight={"26px"} opacity={"90%"}>
                 <Text>
                   north star:{" "}
-                  <span style={{ fontWeight: "500", color: "#005B99" }}>
+                  <span style={{ fontWeight: "500", color: "#000000" }}>
                      getting more high-quality + committed builders.
                   </span>{" "}
                   most ecosystems approach india as a builder farm — competing for lower-quality developers who don&apos;t move the needle. what actually matters is helping top-tier builders build real companies with global distribution. everything else flows from that.
@@ -287,6 +286,15 @@ export default function Superteam() {
             <Flex flexDir={"column"} gap={"12px"}>
               <Text fontSize={"14px"} opacity={"80%"}>
                 learn more:{" "}
+                <a
+                  href="https://x.com/0xratnakar"
+                  style={{ color: "#005B99" }}
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                >
+                  twitter
+                </a>{" "}
+                /{" "}
                 <a
                   href="https://www.ratnakar.xyz/work"
                   style={{ color: "#005B99" }}

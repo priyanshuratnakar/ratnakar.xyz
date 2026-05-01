@@ -136,7 +136,7 @@ export default function LearnAIStanford() {
   return (
     <>
       <Head>
-        <title>Stanford's Free AI and ML Courses | ratnakar</title>
+        <title>Stanford&apos;s Free AI and ML Courses | ratnakar</title>
         <meta
           name="description"
           content="56 lectures covering AI principles, techniques, history, and applications. All free."

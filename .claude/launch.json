@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "verytasty — dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "../verytasty.xyz", "run", "dev"],
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "ratnakar.xyz — dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}
